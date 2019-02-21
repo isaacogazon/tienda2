@@ -18,9 +18,9 @@ class Listadoproductos_model extends CI_Model {
          * @param type $cat_id
          * @return type
          */
-        public function categoria($cat_id, $num_por_pag){
+        public function categoria($cat_id, $num_por_pag, $pos){
             $this->db->where('categoria_id',$cat_id);
-            $resultados = $this->db->get("productos", $num_por_pag, $this->uri->segment(3));
+            $resultados = $this->db->get("productos", $num_por_pag, $pos);
             return $resultados->result();
         }
         

@@ -16,7 +16,7 @@ class Principal extends CI_Controller {
          * */
         $this->load->library('pagination');
 
-        $config['base_url'] = site_url('principal/index');
+        $config['base_url'] = site_url('index.php/principal/index');
         $config['total_rows'] = $this->listadoproductos_model->num_productos();
         $config['per_page'] = 6;
         //$config['uri_segment'] = 3;
@@ -62,7 +62,7 @@ class Principal extends CI_Controller {
         $this->load->view('layouts/footer');
     }
 
-    public function categoria($id_cat) {
+    public function categoria($id_cat, $pos=0) {
 
         /**
          * Paginacion
@@ -98,7 +98,7 @@ class Principal extends CI_Controller {
 
         //Cargo todos los productos y se los paso a la vista mediante $data 
         $data = array(
-            'productos' => $this->listadoproductos_model->categoria($id_cat, $config['per_page'])
+            'productos' => $this->listadoproductos_model->categoria($id_cat, $config['per_page'], $pos)
         );
 
         $categorias = array(
