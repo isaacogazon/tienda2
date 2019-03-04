@@ -1,0 +1,2813 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+INFO - 2019-02-21 08:27:08 --> Config Class Initialized
+INFO - 2019-02-21 08:27:08 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:27:08 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:27:08 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:27:08 --> URI Class Initialized
+DEBUG - 2019-02-21 08:27:08 --> No URI present. Default controller set.
+INFO - 2019-02-21 08:27:08 --> Router Class Initialized
+INFO - 2019-02-21 08:27:08 --> Output Class Initialized
+INFO - 2019-02-21 08:27:08 --> Security Class Initialized
+DEBUG - 2019-02-21 08:27:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:27:08 --> Input Class Initialized
+INFO - 2019-02-21 08:27:08 --> Language Class Initialized
+INFO - 2019-02-21 08:27:08 --> Loader Class Initialized
+INFO - 2019-02-21 08:27:08 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:27:08 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:27:08 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:27:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:27:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:27:09 --> Email Class Initialized
+INFO - 2019-02-21 08:27:09 --> Controller Class Initialized
+INFO - 2019-02-21 08:27:09 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:27:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 08:27:09 --> Pagination Class Initialized
+INFO - 2019-02-21 08:27:09 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:27:09 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:27:09 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 08:27:09 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:27:09 --> Final output sent to browser
+DEBUG - 2019-02-21 08:27:09 --> Total execution time: 0.7831
+INFO - 2019-02-21 08:27:12 --> Config Class Initialized
+INFO - 2019-02-21 08:27:12 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:27:12 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:27:12 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:27:12 --> URI Class Initialized
+INFO - 2019-02-21 08:27:13 --> Router Class Initialized
+INFO - 2019-02-21 08:27:13 --> Output Class Initialized
+INFO - 2019-02-21 08:27:13 --> Security Class Initialized
+DEBUG - 2019-02-21 08:27:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:27:13 --> Input Class Initialized
+INFO - 2019-02-21 08:27:13 --> Language Class Initialized
+INFO - 2019-02-21 08:27:13 --> Loader Class Initialized
+INFO - 2019-02-21 08:27:13 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:27:13 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:27:13 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:27:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:27:13 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:27:13 --> Email Class Initialized
+INFO - 2019-02-21 08:27:13 --> Controller Class Initialized
+INFO - 2019-02-21 08:27:13 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:27:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:27:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:27:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 08:27:14 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:27:14 --> Final output sent to browser
+DEBUG - 2019-02-21 08:27:14 --> Total execution time: 1.2017
+INFO - 2019-02-21 08:27:16 --> Config Class Initialized
+INFO - 2019-02-21 08:27:16 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:27:16 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:27:16 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:27:16 --> URI Class Initialized
+INFO - 2019-02-21 08:27:16 --> Router Class Initialized
+INFO - 2019-02-21 08:27:16 --> Output Class Initialized
+INFO - 2019-02-21 08:27:16 --> Security Class Initialized
+DEBUG - 2019-02-21 08:27:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:27:16 --> Input Class Initialized
+INFO - 2019-02-21 08:27:16 --> Language Class Initialized
+INFO - 2019-02-21 08:27:16 --> Loader Class Initialized
+INFO - 2019-02-21 08:27:16 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:27:16 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:27:16 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:27:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:27:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:27:16 --> Email Class Initialized
+INFO - 2019-02-21 08:27:16 --> Controller Class Initialized
+INFO - 2019-02-21 08:27:16 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:27:17 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:27:17 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:27:17 --> Form Validation Class Initialized
+ERROR - 2019-02-21 08:27:17 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-21 08:27:17 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-21 08:27:31 --> Config Class Initialized
+INFO - 2019-02-21 08:27:31 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:27:31 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:27:31 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:27:31 --> URI Class Initialized
+INFO - 2019-02-21 08:27:31 --> Router Class Initialized
+INFO - 2019-02-21 08:27:31 --> Output Class Initialized
+INFO - 2019-02-21 08:27:31 --> Security Class Initialized
+DEBUG - 2019-02-21 08:27:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:27:31 --> Input Class Initialized
+INFO - 2019-02-21 08:27:31 --> Language Class Initialized
+INFO - 2019-02-21 08:27:31 --> Loader Class Initialized
+INFO - 2019-02-21 08:27:31 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:27:31 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:27:31 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:27:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:27:31 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:27:31 --> Email Class Initialized
+INFO - 2019-02-21 08:27:31 --> Controller Class Initialized
+INFO - 2019-02-21 08:27:31 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:27:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:27:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:27:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 08:27:32 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:27:32 --> Final output sent to browser
+DEBUG - 2019-02-21 08:27:32 --> Total execution time: 0.6742
+INFO - 2019-02-21 08:27:34 --> Config Class Initialized
+INFO - 2019-02-21 08:27:34 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:27:34 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:27:34 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:27:34 --> URI Class Initialized
+INFO - 2019-02-21 08:27:34 --> Router Class Initialized
+INFO - 2019-02-21 08:27:34 --> Output Class Initialized
+INFO - 2019-02-21 08:27:34 --> Security Class Initialized
+DEBUG - 2019-02-21 08:27:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:27:34 --> Input Class Initialized
+INFO - 2019-02-21 08:27:34 --> Language Class Initialized
+INFO - 2019-02-21 08:27:35 --> Loader Class Initialized
+INFO - 2019-02-21 08:27:35 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:27:35 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:27:35 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:27:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:27:35 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:27:35 --> Email Class Initialized
+INFO - 2019-02-21 08:27:35 --> Controller Class Initialized
+INFO - 2019-02-21 08:27:35 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:27:35 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:27:35 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:27:35 --> Form Validation Class Initialized
+ERROR - 2019-02-21 08:27:35 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-21 08:27:35 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-21 08:30:10 --> Config Class Initialized
+INFO - 2019-02-21 08:30:10 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:30:10 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:30:10 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:30:10 --> URI Class Initialized
+INFO - 2019-02-21 08:30:10 --> Router Class Initialized
+INFO - 2019-02-21 08:30:10 --> Output Class Initialized
+INFO - 2019-02-21 08:30:10 --> Security Class Initialized
+DEBUG - 2019-02-21 08:30:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:30:10 --> Input Class Initialized
+INFO - 2019-02-21 08:30:10 --> Language Class Initialized
+INFO - 2019-02-21 08:30:10 --> Loader Class Initialized
+INFO - 2019-02-21 08:30:10 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:30:10 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:30:10 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:30:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:30:10 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:30:10 --> Email Class Initialized
+INFO - 2019-02-21 08:30:10 --> Controller Class Initialized
+INFO - 2019-02-21 08:30:10 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:30:10 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:30:10 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:30:10 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 08:30:10 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:30:10 --> Final output sent to browser
+DEBUG - 2019-02-21 08:30:10 --> Total execution time: 0.6308
+INFO - 2019-02-21 08:30:12 --> Config Class Initialized
+INFO - 2019-02-21 08:30:12 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:30:12 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:30:12 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:30:12 --> URI Class Initialized
+INFO - 2019-02-21 08:30:12 --> Router Class Initialized
+INFO - 2019-02-21 08:30:12 --> Output Class Initialized
+INFO - 2019-02-21 08:30:12 --> Security Class Initialized
+DEBUG - 2019-02-21 08:30:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:30:12 --> Input Class Initialized
+INFO - 2019-02-21 08:30:12 --> Language Class Initialized
+INFO - 2019-02-21 08:30:12 --> Loader Class Initialized
+INFO - 2019-02-21 08:30:12 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:30:12 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:30:12 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:30:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:30:12 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:30:13 --> Email Class Initialized
+INFO - 2019-02-21 08:30:13 --> Controller Class Initialized
+INFO - 2019-02-21 08:30:13 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:30:13 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:30:13 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:30:13 --> Form Validation Class Initialized
+INFO - 2019-02-21 08:30:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:30:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:30:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 08:30:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:30:13 --> Final output sent to browser
+DEBUG - 2019-02-21 08:30:13 --> Total execution time: 0.8224
+INFO - 2019-02-21 08:30:18 --> Config Class Initialized
+INFO - 2019-02-21 08:30:18 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:30:18 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:30:18 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:30:18 --> URI Class Initialized
+INFO - 2019-02-21 08:30:18 --> Router Class Initialized
+INFO - 2019-02-21 08:30:18 --> Output Class Initialized
+INFO - 2019-02-21 08:30:18 --> Security Class Initialized
+DEBUG - 2019-02-21 08:30:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:30:18 --> Input Class Initialized
+INFO - 2019-02-21 08:30:18 --> Language Class Initialized
+INFO - 2019-02-21 08:30:18 --> Loader Class Initialized
+INFO - 2019-02-21 08:30:18 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:30:19 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:30:19 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:30:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:30:19 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:30:19 --> Email Class Initialized
+INFO - 2019-02-21 08:30:19 --> Controller Class Initialized
+INFO - 2019-02-21 08:30:19 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:30:19 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:30:19 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:30:19 --> Form Validation Class Initialized
+INFO - 2019-02-21 08:30:19 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-21 08:30:19 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-02-21 08:30:20 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:30:20 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+ERROR - 2019-02-21 08:30:20 --> Severity: Notice --> Undefined variable: ponercorreo C:\xampp\htdocs\tienda\application\controllers\Auth.php 232
+INFO - 2019-02-21 08:30:20 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 08:30:20 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:30:20 --> Final output sent to browser
+DEBUG - 2019-02-21 08:30:20 --> Total execution time: 1.9886
+INFO - 2019-02-21 08:31:14 --> Config Class Initialized
+INFO - 2019-02-21 08:31:14 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:31:14 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:31:14 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:31:14 --> URI Class Initialized
+INFO - 2019-02-21 08:31:14 --> Router Class Initialized
+INFO - 2019-02-21 08:31:14 --> Output Class Initialized
+INFO - 2019-02-21 08:31:14 --> Security Class Initialized
+DEBUG - 2019-02-21 08:31:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:31:14 --> Input Class Initialized
+INFO - 2019-02-21 08:31:14 --> Language Class Initialized
+INFO - 2019-02-21 08:31:14 --> Loader Class Initialized
+INFO - 2019-02-21 08:31:14 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:31:14 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:31:14 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:31:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:31:14 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:31:14 --> Email Class Initialized
+INFO - 2019-02-21 08:31:14 --> Controller Class Initialized
+INFO - 2019-02-21 08:31:14 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:31:14 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:31:14 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:31:14 --> Form Validation Class Initialized
+INFO - 2019-02-21 08:31:14 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:31:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:31:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 08:31:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:31:15 --> Final output sent to browser
+DEBUG - 2019-02-21 08:31:15 --> Total execution time: 0.9483
+INFO - 2019-02-21 08:31:34 --> Config Class Initialized
+INFO - 2019-02-21 08:31:34 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:31:34 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:31:34 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:31:34 --> URI Class Initialized
+INFO - 2019-02-21 08:31:34 --> Router Class Initialized
+INFO - 2019-02-21 08:31:34 --> Output Class Initialized
+INFO - 2019-02-21 08:31:34 --> Security Class Initialized
+DEBUG - 2019-02-21 08:31:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:31:34 --> Input Class Initialized
+INFO - 2019-02-21 08:31:34 --> Language Class Initialized
+INFO - 2019-02-21 08:31:34 --> Loader Class Initialized
+INFO - 2019-02-21 08:31:34 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:31:34 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:31:34 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:31:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:31:34 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:31:34 --> Email Class Initialized
+INFO - 2019-02-21 08:31:34 --> Controller Class Initialized
+INFO - 2019-02-21 08:31:34 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:31:34 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:31:34 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:31:34 --> Form Validation Class Initialized
+INFO - 2019-02-21 08:31:34 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-21 08:31:35 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-02-21 08:31:35 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:31:36 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:31:36 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 08:31:36 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:31:36 --> Final output sent to browser
+DEBUG - 2019-02-21 08:31:36 --> Total execution time: 1.9836
+INFO - 2019-02-21 08:36:47 --> Config Class Initialized
+INFO - 2019-02-21 08:36:47 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:36:47 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:36:47 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:36:47 --> URI Class Initialized
+INFO - 2019-02-21 08:36:47 --> Router Class Initialized
+INFO - 2019-02-21 08:36:47 --> Output Class Initialized
+INFO - 2019-02-21 08:36:47 --> Security Class Initialized
+DEBUG - 2019-02-21 08:36:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:36:47 --> Input Class Initialized
+INFO - 2019-02-21 08:36:47 --> Language Class Initialized
+INFO - 2019-02-21 08:36:47 --> Loader Class Initialized
+INFO - 2019-02-21 08:36:47 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:36:47 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:36:47 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:36:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:36:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:36:48 --> Email Class Initialized
+INFO - 2019-02-21 08:36:48 --> Controller Class Initialized
+INFO - 2019-02-21 08:36:48 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:36:48 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:36:48 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:36:48 --> Form Validation Class Initialized
+INFO - 2019-02-21 08:36:48 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:36:48 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:36:48 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 08:36:48 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:36:48 --> Final output sent to browser
+DEBUG - 2019-02-21 08:36:48 --> Total execution time: 0.7649
+INFO - 2019-02-21 08:36:51 --> Config Class Initialized
+INFO - 2019-02-21 08:36:51 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:36:51 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:36:51 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:36:51 --> URI Class Initialized
+INFO - 2019-02-21 08:36:51 --> Router Class Initialized
+INFO - 2019-02-21 08:36:51 --> Output Class Initialized
+INFO - 2019-02-21 08:36:51 --> Security Class Initialized
+DEBUG - 2019-02-21 08:36:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:36:51 --> Input Class Initialized
+INFO - 2019-02-21 08:36:51 --> Language Class Initialized
+INFO - 2019-02-21 08:36:51 --> Loader Class Initialized
+INFO - 2019-02-21 08:36:51 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:36:51 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:36:51 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:36:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:36:51 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:36:51 --> Email Class Initialized
+INFO - 2019-02-21 08:36:51 --> Controller Class Initialized
+INFO - 2019-02-21 08:36:51 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:36:51 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:36:51 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:36:51 --> Form Validation Class Initialized
+INFO - 2019-02-21 08:36:51 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-21 08:36:52 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-02-21 08:36:53 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:36:53 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:36:53 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 08:36:53 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:36:53 --> Final output sent to browser
+DEBUG - 2019-02-21 08:36:53 --> Total execution time: 1.8998
+INFO - 2019-02-21 08:37:01 --> Config Class Initialized
+INFO - 2019-02-21 08:37:01 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:37:01 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:37:01 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:37:01 --> URI Class Initialized
+INFO - 2019-02-21 08:37:01 --> Router Class Initialized
+INFO - 2019-02-21 08:37:01 --> Output Class Initialized
+INFO - 2019-02-21 08:37:01 --> Security Class Initialized
+DEBUG - 2019-02-21 08:37:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:37:01 --> Input Class Initialized
+INFO - 2019-02-21 08:37:02 --> Language Class Initialized
+INFO - 2019-02-21 08:37:02 --> Loader Class Initialized
+INFO - 2019-02-21 08:37:02 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:37:02 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:37:02 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:37:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:37:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:37:02 --> Email Class Initialized
+INFO - 2019-02-21 08:37:02 --> Controller Class Initialized
+INFO - 2019-02-21 08:37:02 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:37:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:37:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:37:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 08:37:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:37:02 --> Final output sent to browser
+DEBUG - 2019-02-21 08:37:02 --> Total execution time: 0.6641
+INFO - 2019-02-21 08:37:07 --> Config Class Initialized
+INFO - 2019-02-21 08:37:07 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:37:07 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:37:07 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:37:07 --> URI Class Initialized
+INFO - 2019-02-21 08:37:07 --> Router Class Initialized
+INFO - 2019-02-21 08:37:07 --> Output Class Initialized
+INFO - 2019-02-21 08:37:07 --> Security Class Initialized
+DEBUG - 2019-02-21 08:37:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:37:07 --> Input Class Initialized
+INFO - 2019-02-21 08:37:07 --> Language Class Initialized
+INFO - 2019-02-21 08:37:07 --> Loader Class Initialized
+INFO - 2019-02-21 08:37:07 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:37:07 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:37:07 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:37:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:37:07 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:37:07 --> Email Class Initialized
+INFO - 2019-02-21 08:37:07 --> Controller Class Initialized
+INFO - 2019-02-21 08:37:07 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:37:07 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:37:07 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:37:07 --> Form Validation Class Initialized
+INFO - 2019-02-21 08:37:07 --> Config Class Initialized
+INFO - 2019-02-21 08:37:07 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:37:07 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:37:07 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:37:07 --> URI Class Initialized
+INFO - 2019-02-21 08:37:07 --> Router Class Initialized
+INFO - 2019-02-21 08:37:07 --> Output Class Initialized
+INFO - 2019-02-21 08:37:07 --> Security Class Initialized
+DEBUG - 2019-02-21 08:37:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:37:07 --> Input Class Initialized
+INFO - 2019-02-21 08:37:07 --> Language Class Initialized
+INFO - 2019-02-21 08:37:07 --> Loader Class Initialized
+INFO - 2019-02-21 08:37:08 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:37:08 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:37:08 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:37:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:37:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:37:08 --> Email Class Initialized
+INFO - 2019-02-21 08:37:08 --> Controller Class Initialized
+INFO - 2019-02-21 08:37:08 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:37:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 08:37:08 --> Pagination Class Initialized
+INFO - 2019-02-21 08:37:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:37:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:37:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 08:37:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:37:08 --> Final output sent to browser
+DEBUG - 2019-02-21 08:37:08 --> Total execution time: 0.7469
+INFO - 2019-02-21 08:37:11 --> Config Class Initialized
+INFO - 2019-02-21 08:37:11 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:37:11 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:37:11 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:37:11 --> URI Class Initialized
+INFO - 2019-02-21 08:37:11 --> Router Class Initialized
+INFO - 2019-02-21 08:37:11 --> Output Class Initialized
+INFO - 2019-02-21 08:37:11 --> Security Class Initialized
+DEBUG - 2019-02-21 08:37:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:37:11 --> Input Class Initialized
+INFO - 2019-02-21 08:37:11 --> Language Class Initialized
+INFO - 2019-02-21 08:37:11 --> Loader Class Initialized
+INFO - 2019-02-21 08:37:11 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:37:11 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:37:12 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:37:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:37:12 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:37:12 --> Email Class Initialized
+INFO - 2019-02-21 08:37:12 --> Controller Class Initialized
+INFO - 2019-02-21 08:37:12 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:37:12 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:37:12 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:37:12 --> Form Validation Class Initialized
+INFO - 2019-02-21 08:37:12 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:37:12 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:37:12 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 08:37:12 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:37:12 --> Final output sent to browser
+DEBUG - 2019-02-21 08:37:12 --> Total execution time: 0.7465
+INFO - 2019-02-21 08:37:15 --> Config Class Initialized
+INFO - 2019-02-21 08:37:15 --> Hooks Class Initialized
+DEBUG - 2019-02-21 08:37:15 --> UTF-8 Support Enabled
+INFO - 2019-02-21 08:37:15 --> Utf8 Class Initialized
+INFO - 2019-02-21 08:37:15 --> URI Class Initialized
+INFO - 2019-02-21 08:37:15 --> Router Class Initialized
+INFO - 2019-02-21 08:37:15 --> Output Class Initialized
+INFO - 2019-02-21 08:37:15 --> Security Class Initialized
+DEBUG - 2019-02-21 08:37:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 08:37:15 --> Input Class Initialized
+INFO - 2019-02-21 08:37:15 --> Language Class Initialized
+INFO - 2019-02-21 08:37:15 --> Loader Class Initialized
+INFO - 2019-02-21 08:37:15 --> Helper loaded: url_helper
+INFO - 2019-02-21 08:37:15 --> Helper loaded: form_helper
+INFO - 2019-02-21 08:37:15 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 08:37:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 08:37:15 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 08:37:15 --> Email Class Initialized
+INFO - 2019-02-21 08:37:15 --> Controller Class Initialized
+INFO - 2019-02-21 08:37:15 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 08:37:15 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 08:37:15 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 08:37:15 --> Form Validation Class Initialized
+INFO - 2019-02-21 08:37:15 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-21 08:37:16 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-02-21 08:37:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 08:37:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 08:37:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 08:37:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 08:37:17 --> Final output sent to browser
+DEBUG - 2019-02-21 08:37:17 --> Total execution time: 2.3551
+INFO - 2019-02-21 09:08:09 --> Config Class Initialized
+INFO - 2019-02-21 09:08:09 --> Hooks Class Initialized
+DEBUG - 2019-02-21 09:08:09 --> UTF-8 Support Enabled
+INFO - 2019-02-21 09:08:09 --> Utf8 Class Initialized
+INFO - 2019-02-21 09:08:09 --> URI Class Initialized
+INFO - 2019-02-21 09:08:09 --> Router Class Initialized
+INFO - 2019-02-21 09:08:09 --> Output Class Initialized
+INFO - 2019-02-21 09:08:09 --> Security Class Initialized
+DEBUG - 2019-02-21 09:08:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 09:08:09 --> Input Class Initialized
+INFO - 2019-02-21 09:08:09 --> Language Class Initialized
+ERROR - 2019-02-21 09:08:09 --> 404 Page Not Found: /index
+INFO - 2019-02-21 09:08:14 --> Config Class Initialized
+INFO - 2019-02-21 09:08:14 --> Hooks Class Initialized
+DEBUG - 2019-02-21 09:08:14 --> UTF-8 Support Enabled
+INFO - 2019-02-21 09:08:14 --> Utf8 Class Initialized
+INFO - 2019-02-21 09:08:14 --> URI Class Initialized
+INFO - 2019-02-21 09:08:14 --> Router Class Initialized
+INFO - 2019-02-21 09:08:14 --> Output Class Initialized
+INFO - 2019-02-21 09:08:14 --> Security Class Initialized
+DEBUG - 2019-02-21 09:08:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 09:08:14 --> Input Class Initialized
+INFO - 2019-02-21 09:08:14 --> Language Class Initialized
+ERROR - 2019-02-21 09:08:14 --> 404 Page Not Found: Auth/recordar
+INFO - 2019-02-21 09:08:19 --> Config Class Initialized
+INFO - 2019-02-21 09:08:19 --> Hooks Class Initialized
+DEBUG - 2019-02-21 09:08:19 --> UTF-8 Support Enabled
+INFO - 2019-02-21 09:08:19 --> Utf8 Class Initialized
+INFO - 2019-02-21 09:08:19 --> URI Class Initialized
+INFO - 2019-02-21 09:08:19 --> Router Class Initialized
+INFO - 2019-02-21 09:08:19 --> Output Class Initialized
+INFO - 2019-02-21 09:08:19 --> Security Class Initialized
+DEBUG - 2019-02-21 09:08:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 09:08:19 --> Input Class Initialized
+INFO - 2019-02-21 09:08:19 --> Language Class Initialized
+ERROR - 2019-02-21 09:08:19 --> 404 Page Not Found: /index
+INFO - 2019-02-21 09:08:24 --> Config Class Initialized
+INFO - 2019-02-21 09:08:24 --> Hooks Class Initialized
+DEBUG - 2019-02-21 09:08:24 --> UTF-8 Support Enabled
+INFO - 2019-02-21 09:08:24 --> Utf8 Class Initialized
+INFO - 2019-02-21 09:08:24 --> URI Class Initialized
+INFO - 2019-02-21 09:08:24 --> Router Class Initialized
+INFO - 2019-02-21 09:08:24 --> Output Class Initialized
+INFO - 2019-02-21 09:08:24 --> Security Class Initialized
+DEBUG - 2019-02-21 09:08:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 09:08:25 --> Input Class Initialized
+INFO - 2019-02-21 09:08:25 --> Language Class Initialized
+ERROR - 2019-02-21 09:08:25 --> 404 Page Not Found: /index
+INFO - 2019-02-21 09:08:35 --> Config Class Initialized
+INFO - 2019-02-21 09:08:35 --> Hooks Class Initialized
+DEBUG - 2019-02-21 09:08:35 --> UTF-8 Support Enabled
+INFO - 2019-02-21 09:08:35 --> Utf8 Class Initialized
+INFO - 2019-02-21 09:08:35 --> URI Class Initialized
+INFO - 2019-02-21 09:08:35 --> Router Class Initialized
+INFO - 2019-02-21 09:08:35 --> Output Class Initialized
+INFO - 2019-02-21 09:08:35 --> Security Class Initialized
+DEBUG - 2019-02-21 09:08:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 09:08:36 --> Input Class Initialized
+INFO - 2019-02-21 09:08:36 --> Language Class Initialized
+ERROR - 2019-02-21 09:08:36 --> 404 Page Not Found: Principal/index
+INFO - 2019-02-21 09:08:37 --> Config Class Initialized
+INFO - 2019-02-21 09:08:37 --> Hooks Class Initialized
+DEBUG - 2019-02-21 09:08:37 --> UTF-8 Support Enabled
+INFO - 2019-02-21 09:08:37 --> Utf8 Class Initialized
+INFO - 2019-02-21 09:08:37 --> URI Class Initialized
+INFO - 2019-02-21 09:08:37 --> Router Class Initialized
+INFO - 2019-02-21 09:08:37 --> Output Class Initialized
+INFO - 2019-02-21 09:08:37 --> Security Class Initialized
+DEBUG - 2019-02-21 09:08:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 09:08:37 --> Input Class Initialized
+INFO - 2019-02-21 09:08:37 --> Language Class Initialized
+ERROR - 2019-02-21 09:08:37 --> 404 Page Not Found: Principal/login
+INFO - 2019-02-21 09:08:58 --> Config Class Initialized
+INFO - 2019-02-21 09:08:58 --> Hooks Class Initialized
+DEBUG - 2019-02-21 09:08:58 --> UTF-8 Support Enabled
+INFO - 2019-02-21 09:08:58 --> Utf8 Class Initialized
+INFO - 2019-02-21 09:08:58 --> URI Class Initialized
+INFO - 2019-02-21 09:08:58 --> Router Class Initialized
+INFO - 2019-02-21 09:08:58 --> Output Class Initialized
+INFO - 2019-02-21 09:08:58 --> Security Class Initialized
+DEBUG - 2019-02-21 09:08:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 09:08:59 --> Input Class Initialized
+INFO - 2019-02-21 09:08:59 --> Language Class Initialized
+ERROR - 2019-02-21 09:08:59 --> 404 Page Not Found: /index
+INFO - 2019-02-21 09:09:54 --> Config Class Initialized
+INFO - 2019-02-21 09:09:54 --> Hooks Class Initialized
+DEBUG - 2019-02-21 09:09:55 --> UTF-8 Support Enabled
+INFO - 2019-02-21 09:09:55 --> Utf8 Class Initialized
+INFO - 2019-02-21 09:09:55 --> URI Class Initialized
+INFO - 2019-02-21 09:09:55 --> Router Class Initialized
+INFO - 2019-02-21 09:09:55 --> Output Class Initialized
+INFO - 2019-02-21 09:09:55 --> Security Class Initialized
+DEBUG - 2019-02-21 09:09:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 09:09:55 --> Input Class Initialized
+INFO - 2019-02-21 09:09:55 --> Language Class Initialized
+ERROR - 2019-02-21 09:09:55 --> 404 Page Not Found: /index
+INFO - 2019-02-21 09:13:04 --> Config Class Initialized
+INFO - 2019-02-21 09:13:04 --> Hooks Class Initialized
+DEBUG - 2019-02-21 09:13:04 --> UTF-8 Support Enabled
+INFO - 2019-02-21 09:13:04 --> Utf8 Class Initialized
+INFO - 2019-02-21 09:13:04 --> URI Class Initialized
+DEBUG - 2019-02-21 09:13:04 --> No URI present. Default controller set.
+INFO - 2019-02-21 09:13:04 --> Router Class Initialized
+INFO - 2019-02-21 09:13:04 --> Output Class Initialized
+INFO - 2019-02-21 09:13:05 --> Security Class Initialized
+DEBUG - 2019-02-21 09:13:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 09:13:05 --> Input Class Initialized
+INFO - 2019-02-21 09:13:05 --> Language Class Initialized
+INFO - 2019-02-21 09:13:05 --> Loader Class Initialized
+INFO - 2019-02-21 09:13:05 --> Helper loaded: url_helper
+INFO - 2019-02-21 09:13:05 --> Helper loaded: form_helper
+INFO - 2019-02-21 09:13:05 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 09:13:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 09:13:05 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 09:13:05 --> Email Class Initialized
+INFO - 2019-02-21 09:13:05 --> Controller Class Initialized
+ERROR - 2019-02-21 09:13:05 --> Severity: error --> Exception: Unable to locate the model you have specified: Listadoproductos_model C:\xampp\htdocs\tienda\system\core\Loader.php 348
+INFO - 2019-02-21 10:18:30 --> Config Class Initialized
+INFO - 2019-02-21 10:18:30 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:18:30 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:18:30 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:18:30 --> URI Class Initialized
+INFO - 2019-02-21 10:18:30 --> Router Class Initialized
+INFO - 2019-02-21 10:18:30 --> Output Class Initialized
+INFO - 2019-02-21 10:18:30 --> Security Class Initialized
+DEBUG - 2019-02-21 10:18:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:18:31 --> Input Class Initialized
+INFO - 2019-02-21 10:18:31 --> Language Class Initialized
+INFO - 2019-02-21 10:18:31 --> Loader Class Initialized
+INFO - 2019-02-21 10:18:31 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:18:31 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:18:31 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:18:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:18:31 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:18:31 --> Email Class Initialized
+INFO - 2019-02-21 10:18:31 --> Controller Class Initialized
+INFO - 2019-02-21 10:18:31 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:18:31 --> Model "Provincias_model" initialized
+ERROR - 2019-02-21 10:18:31 --> Severity: error --> Exception: Unable to locate the model you have specified: Listadoproductos_model C:\xampp\htdocs\tienda\system\core\Loader.php 348
+INFO - 2019-02-21 10:20:03 --> Config Class Initialized
+INFO - 2019-02-21 10:20:03 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:20:03 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:20:03 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:20:03 --> URI Class Initialized
+INFO - 2019-02-21 10:20:03 --> Router Class Initialized
+INFO - 2019-02-21 10:20:03 --> Output Class Initialized
+INFO - 2019-02-21 10:20:03 --> Security Class Initialized
+DEBUG - 2019-02-21 10:20:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:20:03 --> Input Class Initialized
+INFO - 2019-02-21 10:20:03 --> Language Class Initialized
+INFO - 2019-02-21 10:20:03 --> Loader Class Initialized
+INFO - 2019-02-21 10:20:03 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:20:03 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:20:03 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:20:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:20:03 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:20:03 --> Email Class Initialized
+INFO - 2019-02-21 10:20:03 --> Controller Class Initialized
+INFO - 2019-02-21 10:20:03 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:20:03 --> Model "Provincias_model" initialized
+ERROR - 2019-02-21 10:20:03 --> Severity: error --> Exception: Unable to locate the model you have specified: Listadoproductos_model C:\xampp\htdocs\tienda\system\core\Loader.php 348
+INFO - 2019-02-21 10:20:11 --> Config Class Initialized
+INFO - 2019-02-21 10:20:11 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:20:11 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:20:11 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:20:11 --> URI Class Initialized
+INFO - 2019-02-21 10:20:11 --> Router Class Initialized
+INFO - 2019-02-21 10:20:11 --> Output Class Initialized
+INFO - 2019-02-21 10:20:11 --> Security Class Initialized
+DEBUG - 2019-02-21 10:20:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:20:11 --> Input Class Initialized
+INFO - 2019-02-21 10:20:11 --> Language Class Initialized
+INFO - 2019-02-21 10:20:11 --> Loader Class Initialized
+INFO - 2019-02-21 10:20:11 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:20:11 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:20:11 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:20:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:20:12 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:20:12 --> Email Class Initialized
+INFO - 2019-02-21 10:20:12 --> Controller Class Initialized
+INFO - 2019-02-21 10:20:12 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:20:12 --> Model "Provincias_model" initialized
+ERROR - 2019-02-21 10:20:12 --> Severity: error --> Exception: Unable to locate the model you have specified: Listadoproductos_model C:\xampp\htdocs\tienda\system\core\Loader.php 348
+INFO - 2019-02-21 10:23:41 --> Config Class Initialized
+INFO - 2019-02-21 10:23:41 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:23:41 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:23:41 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:23:41 --> URI Class Initialized
+DEBUG - 2019-02-21 10:23:41 --> No URI present. Default controller set.
+INFO - 2019-02-21 10:23:41 --> Router Class Initialized
+INFO - 2019-02-21 10:23:41 --> Output Class Initialized
+INFO - 2019-02-21 10:23:41 --> Security Class Initialized
+DEBUG - 2019-02-21 10:23:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:23:41 --> Input Class Initialized
+INFO - 2019-02-21 10:23:41 --> Language Class Initialized
+INFO - 2019-02-21 10:23:42 --> Loader Class Initialized
+INFO - 2019-02-21 10:23:42 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:23:42 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:23:42 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:23:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:23:42 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:23:42 --> Email Class Initialized
+INFO - 2019-02-21 10:23:42 --> Controller Class Initialized
+INFO - 2019-02-21 10:23:42 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:23:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:23:42 --> Pagination Class Initialized
+INFO - 2019-02-21 10:23:42 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:23:42 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:23:42 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:23:42 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:23:42 --> Final output sent to browser
+DEBUG - 2019-02-21 10:23:42 --> Total execution time: 0.6889
+INFO - 2019-02-21 10:23:45 --> Config Class Initialized
+INFO - 2019-02-21 10:23:45 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:23:45 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:23:45 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:23:45 --> URI Class Initialized
+INFO - 2019-02-21 10:23:45 --> Router Class Initialized
+INFO - 2019-02-21 10:23:45 --> Output Class Initialized
+INFO - 2019-02-21 10:23:45 --> Security Class Initialized
+DEBUG - 2019-02-21 10:23:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:23:45 --> Input Class Initialized
+INFO - 2019-02-21 10:23:45 --> Language Class Initialized
+INFO - 2019-02-21 10:23:45 --> Loader Class Initialized
+INFO - 2019-02-21 10:23:45 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:23:45 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:23:45 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:23:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:23:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:23:45 --> Email Class Initialized
+INFO - 2019-02-21 10:23:45 --> Controller Class Initialized
+INFO - 2019-02-21 10:23:45 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:23:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:23:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:23:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 10:23:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:23:45 --> Final output sent to browser
+DEBUG - 2019-02-21 10:23:45 --> Total execution time: 0.6398
+INFO - 2019-02-21 10:23:48 --> Config Class Initialized
+INFO - 2019-02-21 10:23:48 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:23:48 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:23:48 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:23:48 --> URI Class Initialized
+INFO - 2019-02-21 10:23:48 --> Router Class Initialized
+INFO - 2019-02-21 10:23:49 --> Output Class Initialized
+INFO - 2019-02-21 10:23:49 --> Security Class Initialized
+DEBUG - 2019-02-21 10:23:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:23:49 --> Input Class Initialized
+INFO - 2019-02-21 10:23:49 --> Language Class Initialized
+INFO - 2019-02-21 10:23:49 --> Loader Class Initialized
+INFO - 2019-02-21 10:23:49 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:23:49 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:23:49 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:23:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:23:49 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:23:49 --> Email Class Initialized
+INFO - 2019-02-21 10:23:49 --> Controller Class Initialized
+INFO - 2019-02-21 10:23:49 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:23:49 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:23:49 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:23:49 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:23:49 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:23:49 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:23:49 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 10:23:49 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:23:49 --> Final output sent to browser
+DEBUG - 2019-02-21 10:23:49 --> Total execution time: 0.6759
+INFO - 2019-02-21 10:23:56 --> Config Class Initialized
+INFO - 2019-02-21 10:23:56 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:23:56 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:23:56 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:23:56 --> URI Class Initialized
+INFO - 2019-02-21 10:23:56 --> Router Class Initialized
+INFO - 2019-02-21 10:23:56 --> Output Class Initialized
+INFO - 2019-02-21 10:23:56 --> Security Class Initialized
+DEBUG - 2019-02-21 10:23:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:23:56 --> Input Class Initialized
+INFO - 2019-02-21 10:23:56 --> Language Class Initialized
+INFO - 2019-02-21 10:23:56 --> Loader Class Initialized
+INFO - 2019-02-21 10:23:56 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:23:56 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:23:56 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:23:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:23:56 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:23:56 --> Email Class Initialized
+INFO - 2019-02-21 10:23:56 --> Controller Class Initialized
+INFO - 2019-02-21 10:23:56 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:23:56 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:23:56 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:23:56 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:23:56 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-21 10:23:57 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-02-21 10:23:58 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:23:59 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:23:59 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 10:23:59 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:23:59 --> Final output sent to browser
+DEBUG - 2019-02-21 10:23:59 --> Total execution time: 2.9982
+INFO - 2019-02-21 10:27:28 --> Config Class Initialized
+INFO - 2019-02-21 10:27:28 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:27:28 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:27:28 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:27:29 --> URI Class Initialized
+INFO - 2019-02-21 10:27:29 --> Router Class Initialized
+INFO - 2019-02-21 10:27:29 --> Output Class Initialized
+INFO - 2019-02-21 10:27:29 --> Security Class Initialized
+DEBUG - 2019-02-21 10:27:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:27:29 --> Input Class Initialized
+INFO - 2019-02-21 10:27:29 --> Language Class Initialized
+INFO - 2019-02-21 10:27:29 --> Loader Class Initialized
+INFO - 2019-02-21 10:27:29 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:27:29 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:27:29 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:27:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:27:29 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:27:29 --> Email Class Initialized
+INFO - 2019-02-21 10:27:29 --> Controller Class Initialized
+INFO - 2019-02-21 10:27:29 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:27:29 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:27:29 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:27:29 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:27:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:27:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:27:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 10:27:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:27:29 --> Final output sent to browser
+DEBUG - 2019-02-21 10:27:29 --> Total execution time: 0.9199
+INFO - 2019-02-21 10:28:11 --> Config Class Initialized
+INFO - 2019-02-21 10:28:11 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:28:11 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:28:11 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:28:11 --> URI Class Initialized
+INFO - 2019-02-21 10:28:11 --> Router Class Initialized
+INFO - 2019-02-21 10:28:11 --> Output Class Initialized
+INFO - 2019-02-21 10:28:11 --> Security Class Initialized
+DEBUG - 2019-02-21 10:28:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:28:11 --> Input Class Initialized
+INFO - 2019-02-21 10:28:11 --> Language Class Initialized
+INFO - 2019-02-21 10:28:11 --> Loader Class Initialized
+INFO - 2019-02-21 10:28:11 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:28:11 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:28:11 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:28:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:28:12 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:28:12 --> Email Class Initialized
+INFO - 2019-02-21 10:28:12 --> Controller Class Initialized
+INFO - 2019-02-21 10:28:12 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:28:12 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:28:12 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:28:12 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:28:12 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:28:12 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:28:12 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 10:28:12 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:28:12 --> Final output sent to browser
+DEBUG - 2019-02-21 10:28:12 --> Total execution time: 1.0156
+INFO - 2019-02-21 10:28:14 --> Config Class Initialized
+INFO - 2019-02-21 10:28:14 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:28:14 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:28:14 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:28:14 --> URI Class Initialized
+INFO - 2019-02-21 10:28:14 --> Router Class Initialized
+INFO - 2019-02-21 10:28:14 --> Output Class Initialized
+INFO - 2019-02-21 10:28:14 --> Security Class Initialized
+DEBUG - 2019-02-21 10:28:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:28:14 --> Input Class Initialized
+INFO - 2019-02-21 10:28:14 --> Language Class Initialized
+INFO - 2019-02-21 10:28:14 --> Loader Class Initialized
+INFO - 2019-02-21 10:28:14 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:28:14 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:28:14 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:28:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:28:14 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:28:14 --> Email Class Initialized
+INFO - 2019-02-21 10:28:14 --> Controller Class Initialized
+INFO - 2019-02-21 10:28:15 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:28:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:28:15 --> Pagination Class Initialized
+INFO - 2019-02-21 10:28:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:28:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:28:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:28:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:28:15 --> Final output sent to browser
+DEBUG - 2019-02-21 10:28:15 --> Total execution time: 0.8393
+INFO - 2019-02-21 10:28:44 --> Config Class Initialized
+INFO - 2019-02-21 10:28:44 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:28:44 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:28:44 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:28:44 --> URI Class Initialized
+INFO - 2019-02-21 10:28:44 --> Router Class Initialized
+INFO - 2019-02-21 10:28:44 --> Output Class Initialized
+INFO - 2019-02-21 10:28:44 --> Security Class Initialized
+DEBUG - 2019-02-21 10:28:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:28:44 --> Input Class Initialized
+INFO - 2019-02-21 10:28:44 --> Language Class Initialized
+INFO - 2019-02-21 10:28:44 --> Loader Class Initialized
+INFO - 2019-02-21 10:28:44 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:28:44 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:28:44 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:28:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:28:44 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:28:44 --> Email Class Initialized
+INFO - 2019-02-21 10:28:44 --> Controller Class Initialized
+INFO - 2019-02-21 10:28:44 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:28:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:28:44 --> Pagination Class Initialized
+INFO - 2019-02-21 10:28:44 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:28:44 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:28:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:28:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:28:45 --> Final output sent to browser
+DEBUG - 2019-02-21 10:28:45 --> Total execution time: 0.8152
+INFO - 2019-02-21 10:28:48 --> Config Class Initialized
+INFO - 2019-02-21 10:28:48 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:28:48 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:28:48 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:28:48 --> URI Class Initialized
+INFO - 2019-02-21 10:28:48 --> Router Class Initialized
+INFO - 2019-02-21 10:28:48 --> Output Class Initialized
+INFO - 2019-02-21 10:28:48 --> Security Class Initialized
+DEBUG - 2019-02-21 10:28:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:28:48 --> Input Class Initialized
+INFO - 2019-02-21 10:28:48 --> Language Class Initialized
+INFO - 2019-02-21 10:28:48 --> Loader Class Initialized
+INFO - 2019-02-21 10:28:48 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:28:48 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:28:48 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:28:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:28:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:28:49 --> Email Class Initialized
+INFO - 2019-02-21 10:28:49 --> Controller Class Initialized
+INFO - 2019-02-21 10:28:49 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:28:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:28:49 --> Pagination Class Initialized
+INFO - 2019-02-21 10:28:49 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:28:49 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:28:49 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:28:49 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:28:49 --> Final output sent to browser
+DEBUG - 2019-02-21 10:28:49 --> Total execution time: 0.9987
+INFO - 2019-02-21 10:28:53 --> Config Class Initialized
+INFO - 2019-02-21 10:28:53 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:28:53 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:28:53 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:28:53 --> URI Class Initialized
+INFO - 2019-02-21 10:28:53 --> Router Class Initialized
+INFO - 2019-02-21 10:28:53 --> Output Class Initialized
+INFO - 2019-02-21 10:28:53 --> Security Class Initialized
+DEBUG - 2019-02-21 10:28:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:28:53 --> Input Class Initialized
+INFO - 2019-02-21 10:28:54 --> Language Class Initialized
+INFO - 2019-02-21 10:28:54 --> Loader Class Initialized
+INFO - 2019-02-21 10:28:54 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:28:54 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:28:54 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:28:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:28:54 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:28:54 --> Email Class Initialized
+INFO - 2019-02-21 10:28:54 --> Controller Class Initialized
+INFO - 2019-02-21 10:28:54 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:28:54 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:28:54 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:28:54 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:28:54 --> File loaded: C:\xampp\htdocs\tienda\application\views\registrar_usuario.php
+INFO - 2019-02-21 10:28:54 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:28:54 --> Final output sent to browser
+DEBUG - 2019-02-21 10:28:54 --> Total execution time: 1.0115
+INFO - 2019-02-21 10:29:11 --> Config Class Initialized
+INFO - 2019-02-21 10:29:11 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:29:11 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:29:11 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:29:11 --> URI Class Initialized
+INFO - 2019-02-21 10:29:11 --> Router Class Initialized
+INFO - 2019-02-21 10:29:11 --> Output Class Initialized
+INFO - 2019-02-21 10:29:11 --> Security Class Initialized
+DEBUG - 2019-02-21 10:29:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:29:11 --> Input Class Initialized
+INFO - 2019-02-21 10:29:11 --> Language Class Initialized
+INFO - 2019-02-21 10:29:11 --> Loader Class Initialized
+INFO - 2019-02-21 10:29:11 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:29:11 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:29:11 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:29:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:29:11 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:29:11 --> Email Class Initialized
+INFO - 2019-02-21 10:29:12 --> Controller Class Initialized
+INFO - 2019-02-21 10:29:12 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:29:12 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:29:12 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:29:12 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:29:12 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-21 10:29:12 --> Config Class Initialized
+INFO - 2019-02-21 10:29:12 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:29:12 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:29:12 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:29:12 --> URI Class Initialized
+INFO - 2019-02-21 10:29:12 --> Router Class Initialized
+INFO - 2019-02-21 10:29:12 --> Output Class Initialized
+INFO - 2019-02-21 10:29:12 --> Security Class Initialized
+DEBUG - 2019-02-21 10:29:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:29:12 --> Input Class Initialized
+INFO - 2019-02-21 10:29:12 --> Language Class Initialized
+INFO - 2019-02-21 10:29:12 --> Loader Class Initialized
+INFO - 2019-02-21 10:29:12 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:29:12 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:29:12 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:29:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:29:12 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:29:13 --> Email Class Initialized
+INFO - 2019-02-21 10:29:13 --> Controller Class Initialized
+INFO - 2019-02-21 10:29:13 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:29:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:29:13 --> Pagination Class Initialized
+INFO - 2019-02-21 10:29:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:29:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:29:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:29:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:29:13 --> Final output sent to browser
+DEBUG - 2019-02-21 10:29:13 --> Total execution time: 1.0964
+INFO - 2019-02-21 10:30:17 --> Config Class Initialized
+INFO - 2019-02-21 10:30:17 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:30:17 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:30:17 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:30:17 --> URI Class Initialized
+INFO - 2019-02-21 10:30:17 --> Router Class Initialized
+INFO - 2019-02-21 10:30:17 --> Output Class Initialized
+INFO - 2019-02-21 10:30:17 --> Security Class Initialized
+DEBUG - 2019-02-21 10:30:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:30:17 --> Input Class Initialized
+INFO - 2019-02-21 10:30:17 --> Language Class Initialized
+INFO - 2019-02-21 10:30:17 --> Loader Class Initialized
+INFO - 2019-02-21 10:30:17 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:30:17 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:30:17 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:30:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:30:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:30:17 --> Email Class Initialized
+INFO - 2019-02-21 10:30:17 --> Controller Class Initialized
+INFO - 2019-02-21 10:30:17 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:30:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:30:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:30:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 10:30:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:30:17 --> Final output sent to browser
+DEBUG - 2019-02-21 10:30:17 --> Total execution time: 0.7578
+INFO - 2019-02-21 10:30:25 --> Config Class Initialized
+INFO - 2019-02-21 10:30:25 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:30:25 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:30:25 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:30:25 --> URI Class Initialized
+INFO - 2019-02-21 10:30:25 --> Router Class Initialized
+INFO - 2019-02-21 10:30:25 --> Output Class Initialized
+INFO - 2019-02-21 10:30:25 --> Security Class Initialized
+DEBUG - 2019-02-21 10:30:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:30:25 --> Input Class Initialized
+INFO - 2019-02-21 10:30:25 --> Language Class Initialized
+INFO - 2019-02-21 10:30:25 --> Loader Class Initialized
+INFO - 2019-02-21 10:30:25 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:30:25 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:30:26 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:30:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:30:26 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:30:26 --> Email Class Initialized
+INFO - 2019-02-21 10:30:26 --> Controller Class Initialized
+INFO - 2019-02-21 10:30:26 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:30:26 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:30:26 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:30:26 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:30:26 --> Config Class Initialized
+INFO - 2019-02-21 10:30:26 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:30:26 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:30:26 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:30:26 --> URI Class Initialized
+INFO - 2019-02-21 10:30:26 --> Router Class Initialized
+INFO - 2019-02-21 10:30:26 --> Output Class Initialized
+INFO - 2019-02-21 10:30:26 --> Security Class Initialized
+DEBUG - 2019-02-21 10:30:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:30:26 --> Input Class Initialized
+INFO - 2019-02-21 10:30:26 --> Language Class Initialized
+INFO - 2019-02-21 10:30:26 --> Loader Class Initialized
+INFO - 2019-02-21 10:30:26 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:30:26 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:30:26 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:30:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:30:26 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:30:26 --> Email Class Initialized
+INFO - 2019-02-21 10:30:27 --> Controller Class Initialized
+INFO - 2019-02-21 10:30:27 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:30:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:30:27 --> Pagination Class Initialized
+INFO - 2019-02-21 10:30:27 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:30:27 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:30:27 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:30:27 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:30:27 --> Final output sent to browser
+DEBUG - 2019-02-21 10:30:27 --> Total execution time: 0.9494
+INFO - 2019-02-21 10:41:12 --> Config Class Initialized
+INFO - 2019-02-21 10:41:12 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:41:12 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:41:12 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:41:12 --> URI Class Initialized
+INFO - 2019-02-21 10:41:12 --> Router Class Initialized
+INFO - 2019-02-21 10:41:12 --> Output Class Initialized
+INFO - 2019-02-21 10:41:12 --> Security Class Initialized
+DEBUG - 2019-02-21 10:41:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:41:12 --> Input Class Initialized
+INFO - 2019-02-21 10:41:12 --> Language Class Initialized
+INFO - 2019-02-21 10:41:12 --> Loader Class Initialized
+INFO - 2019-02-21 10:41:12 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:41:12 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:41:12 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:41:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:41:12 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:41:12 --> Email Class Initialized
+INFO - 2019-02-21 10:41:12 --> Controller Class Initialized
+INFO - 2019-02-21 10:41:12 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:41:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:41:12 --> Pagination Class Initialized
+INFO - 2019-02-21 10:41:12 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:41:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:41:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:41:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:41:13 --> Final output sent to browser
+DEBUG - 2019-02-21 10:41:13 --> Total execution time: 0.6855
+INFO - 2019-02-21 10:41:16 --> Config Class Initialized
+INFO - 2019-02-21 10:41:16 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:41:16 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:41:16 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:41:16 --> URI Class Initialized
+INFO - 2019-02-21 10:41:16 --> Router Class Initialized
+INFO - 2019-02-21 10:41:16 --> Output Class Initialized
+INFO - 2019-02-21 10:41:16 --> Security Class Initialized
+DEBUG - 2019-02-21 10:41:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:41:16 --> Input Class Initialized
+INFO - 2019-02-21 10:41:16 --> Language Class Initialized
+INFO - 2019-02-21 10:41:16 --> Loader Class Initialized
+INFO - 2019-02-21 10:41:16 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:41:16 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:41:16 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:41:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:41:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:41:17 --> Email Class Initialized
+INFO - 2019-02-21 10:41:17 --> Controller Class Initialized
+INFO - 2019-02-21 10:41:17 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:41:17 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:41:17 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:41:17 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:41:51 --> Config Class Initialized
+INFO - 2019-02-21 10:41:51 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:41:51 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:41:51 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:41:51 --> URI Class Initialized
+INFO - 2019-02-21 10:41:51 --> Router Class Initialized
+INFO - 2019-02-21 10:41:51 --> Output Class Initialized
+INFO - 2019-02-21 10:41:51 --> Security Class Initialized
+DEBUG - 2019-02-21 10:41:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:41:51 --> Input Class Initialized
+INFO - 2019-02-21 10:41:51 --> Language Class Initialized
+INFO - 2019-02-21 10:41:51 --> Loader Class Initialized
+INFO - 2019-02-21 10:41:51 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:41:51 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:41:51 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:41:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:41:51 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:41:51 --> Email Class Initialized
+INFO - 2019-02-21 10:41:51 --> Controller Class Initialized
+INFO - 2019-02-21 10:41:52 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:41:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:41:52 --> Pagination Class Initialized
+INFO - 2019-02-21 10:41:52 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:41:52 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:41:52 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:41:52 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:41:52 --> Final output sent to browser
+DEBUG - 2019-02-21 10:41:52 --> Total execution time: 0.7877
+INFO - 2019-02-21 10:41:55 --> Config Class Initialized
+INFO - 2019-02-21 10:41:55 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:41:55 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:41:55 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:41:55 --> URI Class Initialized
+INFO - 2019-02-21 10:41:55 --> Router Class Initialized
+INFO - 2019-02-21 10:41:55 --> Output Class Initialized
+INFO - 2019-02-21 10:41:55 --> Security Class Initialized
+DEBUG - 2019-02-21 10:41:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:41:55 --> Input Class Initialized
+INFO - 2019-02-21 10:41:55 --> Language Class Initialized
+INFO - 2019-02-21 10:41:55 --> Loader Class Initialized
+INFO - 2019-02-21 10:41:55 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:41:55 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:41:55 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:41:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:41:55 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:41:55 --> Email Class Initialized
+INFO - 2019-02-21 10:41:55 --> Controller Class Initialized
+INFO - 2019-02-21 10:41:55 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:41:55 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:41:56 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:41:56 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 10:41:56 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:41:56 --> Final output sent to browser
+DEBUG - 2019-02-21 10:41:56 --> Total execution time: 0.7237
+INFO - 2019-02-21 10:42:01 --> Config Class Initialized
+INFO - 2019-02-21 10:42:01 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:42:01 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:42:01 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:42:01 --> URI Class Initialized
+INFO - 2019-02-21 10:42:01 --> Router Class Initialized
+INFO - 2019-02-21 10:42:01 --> Output Class Initialized
+INFO - 2019-02-21 10:42:01 --> Security Class Initialized
+DEBUG - 2019-02-21 10:42:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:42:01 --> Input Class Initialized
+INFO - 2019-02-21 10:42:01 --> Language Class Initialized
+INFO - 2019-02-21 10:42:01 --> Loader Class Initialized
+INFO - 2019-02-21 10:42:01 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:42:01 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:42:01 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:42:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:42:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:42:01 --> Email Class Initialized
+INFO - 2019-02-21 10:42:01 --> Controller Class Initialized
+INFO - 2019-02-21 10:42:01 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:42:01 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:42:01 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:42:01 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:45:33 --> Config Class Initialized
+INFO - 2019-02-21 10:45:33 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:45:33 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:45:33 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:45:33 --> URI Class Initialized
+DEBUG - 2019-02-21 10:45:33 --> No URI present. Default controller set.
+INFO - 2019-02-21 10:45:33 --> Router Class Initialized
+INFO - 2019-02-21 10:45:33 --> Output Class Initialized
+INFO - 2019-02-21 10:45:33 --> Security Class Initialized
+DEBUG - 2019-02-21 10:45:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:45:33 --> Input Class Initialized
+INFO - 2019-02-21 10:45:33 --> Language Class Initialized
+INFO - 2019-02-21 10:45:33 --> Loader Class Initialized
+INFO - 2019-02-21 10:45:33 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:45:33 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:45:33 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:45:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:45:33 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:45:33 --> Email Class Initialized
+INFO - 2019-02-21 10:45:33 --> Controller Class Initialized
+INFO - 2019-02-21 10:45:33 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:45:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:45:33 --> Pagination Class Initialized
+INFO - 2019-02-21 10:45:34 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:45:34 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:45:34 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:45:34 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:45:34 --> Final output sent to browser
+DEBUG - 2019-02-21 10:45:34 --> Total execution time: 0.7097
+INFO - 2019-02-21 10:45:39 --> Config Class Initialized
+INFO - 2019-02-21 10:45:39 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:45:39 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:45:39 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:45:39 --> URI Class Initialized
+INFO - 2019-02-21 10:45:39 --> Router Class Initialized
+INFO - 2019-02-21 10:45:39 --> Output Class Initialized
+INFO - 2019-02-21 10:45:39 --> Security Class Initialized
+DEBUG - 2019-02-21 10:45:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:45:39 --> Input Class Initialized
+INFO - 2019-02-21 10:45:39 --> Language Class Initialized
+ERROR - 2019-02-21 10:45:39 --> 404 Page Not Found: Auth/recordar
+INFO - 2019-02-21 10:46:28 --> Config Class Initialized
+INFO - 2019-02-21 10:46:28 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:46:28 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:46:28 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:46:28 --> URI Class Initialized
+INFO - 2019-02-21 10:46:28 --> Router Class Initialized
+INFO - 2019-02-21 10:46:28 --> Output Class Initialized
+INFO - 2019-02-21 10:46:28 --> Security Class Initialized
+DEBUG - 2019-02-21 10:46:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:46:28 --> Input Class Initialized
+INFO - 2019-02-21 10:46:28 --> Language Class Initialized
+INFO - 2019-02-21 10:46:28 --> Loader Class Initialized
+INFO - 2019-02-21 10:46:28 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:46:28 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:46:28 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:46:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:46:28 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:46:28 --> Email Class Initialized
+INFO - 2019-02-21 10:46:28 --> Controller Class Initialized
+INFO - 2019-02-21 10:46:28 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:46:28 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:46:28 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:46:28 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:46:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:46:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+ERROR - 2019-02-21 10:46:29 --> Severity: Notice --> Undefined variable: ponercorreo C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php 31
+INFO - 2019-02-21 10:46:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 10:46:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:46:29 --> Final output sent to browser
+DEBUG - 2019-02-21 10:46:29 --> Total execution time: 0.8707
+INFO - 2019-02-21 10:48:19 --> Config Class Initialized
+INFO - 2019-02-21 10:48:19 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:48:19 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:48:19 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:48:19 --> URI Class Initialized
+INFO - 2019-02-21 10:48:19 --> Router Class Initialized
+INFO - 2019-02-21 10:48:19 --> Output Class Initialized
+INFO - 2019-02-21 10:48:19 --> Security Class Initialized
+DEBUG - 2019-02-21 10:48:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:48:19 --> Input Class Initialized
+INFO - 2019-02-21 10:48:19 --> Language Class Initialized
+INFO - 2019-02-21 10:48:19 --> Loader Class Initialized
+INFO - 2019-02-21 10:48:19 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:48:19 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:48:19 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:48:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:48:19 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:48:19 --> Email Class Initialized
+INFO - 2019-02-21 10:48:19 --> Controller Class Initialized
+INFO - 2019-02-21 10:48:19 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:48:19 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:48:20 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:48:20 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:48:20 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:48:20 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+ERROR - 2019-02-21 10:48:20 --> Severity: Notice --> Undefined variable: ponercorreo C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php 31
+INFO - 2019-02-21 10:48:20 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 10:48:20 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:48:20 --> Final output sent to browser
+DEBUG - 2019-02-21 10:48:20 --> Total execution time: 0.9808
+INFO - 2019-02-21 10:49:50 --> Config Class Initialized
+INFO - 2019-02-21 10:49:50 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:49:50 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:49:50 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:49:51 --> URI Class Initialized
+INFO - 2019-02-21 10:49:51 --> Router Class Initialized
+INFO - 2019-02-21 10:49:51 --> Output Class Initialized
+INFO - 2019-02-21 10:49:51 --> Security Class Initialized
+DEBUG - 2019-02-21 10:49:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:49:51 --> Input Class Initialized
+INFO - 2019-02-21 10:49:51 --> Language Class Initialized
+INFO - 2019-02-21 10:49:51 --> Loader Class Initialized
+INFO - 2019-02-21 10:49:51 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:49:51 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:49:51 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:49:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:49:51 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:49:51 --> Email Class Initialized
+INFO - 2019-02-21 10:49:51 --> Controller Class Initialized
+INFO - 2019-02-21 10:49:51 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:49:51 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:49:51 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:49:51 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:49:51 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:49:51 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:49:51 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 10:49:51 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:49:51 --> Final output sent to browser
+DEBUG - 2019-02-21 10:49:52 --> Total execution time: 1.0168
+INFO - 2019-02-21 10:50:00 --> Config Class Initialized
+INFO - 2019-02-21 10:50:00 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:50:00 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:50:00 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:50:00 --> URI Class Initialized
+INFO - 2019-02-21 10:50:00 --> Router Class Initialized
+INFO - 2019-02-21 10:50:00 --> Output Class Initialized
+INFO - 2019-02-21 10:50:01 --> Security Class Initialized
+DEBUG - 2019-02-21 10:50:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:50:01 --> Input Class Initialized
+INFO - 2019-02-21 10:50:01 --> Language Class Initialized
+INFO - 2019-02-21 10:50:01 --> Loader Class Initialized
+INFO - 2019-02-21 10:50:01 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:50:01 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:50:01 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:50:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:50:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:50:01 --> Email Class Initialized
+INFO - 2019-02-21 10:50:01 --> Controller Class Initialized
+INFO - 2019-02-21 10:50:01 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 10:50:01 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 10:50:01 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:50:01 --> Form Validation Class Initialized
+INFO - 2019-02-21 10:50:01 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-21 10:50:02 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-02-21 10:50:03 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:50:03 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:50:04 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 10:50:04 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:50:04 --> Final output sent to browser
+DEBUG - 2019-02-21 10:50:04 --> Total execution time: 3.3367
+INFO - 2019-02-21 10:50:07 --> Config Class Initialized
+INFO - 2019-02-21 10:50:07 --> Hooks Class Initialized
+DEBUG - 2019-02-21 10:50:07 --> UTF-8 Support Enabled
+INFO - 2019-02-21 10:50:07 --> Utf8 Class Initialized
+INFO - 2019-02-21 10:50:07 --> URI Class Initialized
+INFO - 2019-02-21 10:50:07 --> Router Class Initialized
+INFO - 2019-02-21 10:50:07 --> Output Class Initialized
+INFO - 2019-02-21 10:50:07 --> Security Class Initialized
+DEBUG - 2019-02-21 10:50:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 10:50:07 --> Input Class Initialized
+INFO - 2019-02-21 10:50:07 --> Language Class Initialized
+INFO - 2019-02-21 10:50:07 --> Loader Class Initialized
+INFO - 2019-02-21 10:50:07 --> Helper loaded: url_helper
+INFO - 2019-02-21 10:50:07 --> Helper loaded: form_helper
+INFO - 2019-02-21 10:50:07 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 10:50:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 10:50:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 10:50:08 --> Email Class Initialized
+INFO - 2019-02-21 10:50:08 --> Controller Class Initialized
+INFO - 2019-02-21 10:50:08 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 10:50:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 10:50:08 --> Pagination Class Initialized
+INFO - 2019-02-21 10:50:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 10:50:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 10:50:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 10:50:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 10:50:08 --> Final output sent to browser
+DEBUG - 2019-02-21 10:50:08 --> Total execution time: 0.8720
+INFO - 2019-02-21 11:09:18 --> Config Class Initialized
+INFO - 2019-02-21 11:09:18 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:09:18 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:09:19 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:09:19 --> URI Class Initialized
+INFO - 2019-02-21 11:09:19 --> Router Class Initialized
+INFO - 2019-02-21 11:09:19 --> Output Class Initialized
+INFO - 2019-02-21 11:09:19 --> Security Class Initialized
+DEBUG - 2019-02-21 11:09:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:09:19 --> Input Class Initialized
+INFO - 2019-02-21 11:09:19 --> Language Class Initialized
+INFO - 2019-02-21 11:09:19 --> Loader Class Initialized
+INFO - 2019-02-21 11:09:19 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:09:19 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:09:19 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:09:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:09:19 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:09:19 --> Email Class Initialized
+INFO - 2019-02-21 11:09:19 --> Controller Class Initialized
+INFO - 2019-02-21 11:09:19 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:09:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:09:19 --> Pagination Class Initialized
+INFO - 2019-02-21 11:09:19 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:09:19 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:09:19 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:09:19 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:09:19 --> Final output sent to browser
+DEBUG - 2019-02-21 11:09:19 --> Total execution time: 0.7426
+INFO - 2019-02-21 11:09:22 --> Config Class Initialized
+INFO - 2019-02-21 11:09:22 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:09:22 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:09:22 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:09:22 --> URI Class Initialized
+INFO - 2019-02-21 11:09:22 --> Router Class Initialized
+INFO - 2019-02-21 11:09:22 --> Output Class Initialized
+INFO - 2019-02-21 11:09:22 --> Security Class Initialized
+DEBUG - 2019-02-21 11:09:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:09:22 --> Input Class Initialized
+INFO - 2019-02-21 11:09:22 --> Language Class Initialized
+INFO - 2019-02-21 11:09:22 --> Loader Class Initialized
+INFO - 2019-02-21 11:09:22 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:09:22 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:09:22 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:09:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:09:22 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:09:22 --> Email Class Initialized
+INFO - 2019-02-21 11:09:22 --> Controller Class Initialized
+INFO - 2019-02-21 11:09:22 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 11:09:22 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 11:09:22 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:09:22 --> Form Validation Class Initialized
+INFO - 2019-02-21 11:09:23 --> Config Class Initialized
+INFO - 2019-02-21 11:09:23 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:09:23 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:09:23 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:09:23 --> URI Class Initialized
+INFO - 2019-02-21 11:09:23 --> Router Class Initialized
+INFO - 2019-02-21 11:09:23 --> Output Class Initialized
+INFO - 2019-02-21 11:09:23 --> Security Class Initialized
+DEBUG - 2019-02-21 11:09:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:09:23 --> Input Class Initialized
+INFO - 2019-02-21 11:09:23 --> Language Class Initialized
+INFO - 2019-02-21 11:09:23 --> Loader Class Initialized
+INFO - 2019-02-21 11:09:23 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:09:23 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:09:23 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:09:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:09:23 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:09:23 --> Email Class Initialized
+INFO - 2019-02-21 11:09:23 --> Controller Class Initialized
+INFO - 2019-02-21 11:09:23 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:09:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:09:23 --> Pagination Class Initialized
+INFO - 2019-02-21 11:09:23 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:09:23 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:09:23 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:09:23 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:09:23 --> Final output sent to browser
+DEBUG - 2019-02-21 11:09:23 --> Total execution time: 0.7327
+INFO - 2019-02-21 11:09:26 --> Config Class Initialized
+INFO - 2019-02-21 11:09:27 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:09:27 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:09:27 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:09:27 --> URI Class Initialized
+INFO - 2019-02-21 11:09:27 --> Router Class Initialized
+INFO - 2019-02-21 11:09:27 --> Output Class Initialized
+INFO - 2019-02-21 11:09:27 --> Security Class Initialized
+DEBUG - 2019-02-21 11:09:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:09:27 --> Input Class Initialized
+INFO - 2019-02-21 11:09:27 --> Language Class Initialized
+INFO - 2019-02-21 11:09:27 --> Loader Class Initialized
+INFO - 2019-02-21 11:09:27 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:09:27 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:09:27 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:09:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:09:27 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:09:27 --> Email Class Initialized
+INFO - 2019-02-21 11:09:27 --> Controller Class Initialized
+INFO - 2019-02-21 11:09:27 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:09:27 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:09:27 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:09:27 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 11:09:27 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:09:27 --> Final output sent to browser
+DEBUG - 2019-02-21 11:09:27 --> Total execution time: 0.6992
+INFO - 2019-02-21 11:09:29 --> Config Class Initialized
+INFO - 2019-02-21 11:09:29 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:09:29 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:09:29 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:09:29 --> URI Class Initialized
+INFO - 2019-02-21 11:09:29 --> Router Class Initialized
+INFO - 2019-02-21 11:09:29 --> Output Class Initialized
+INFO - 2019-02-21 11:09:29 --> Security Class Initialized
+DEBUG - 2019-02-21 11:09:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:09:29 --> Input Class Initialized
+INFO - 2019-02-21 11:09:29 --> Language Class Initialized
+INFO - 2019-02-21 11:09:29 --> Loader Class Initialized
+INFO - 2019-02-21 11:09:29 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:09:29 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:09:29 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:09:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:09:29 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:09:30 --> Email Class Initialized
+INFO - 2019-02-21 11:09:30 --> Controller Class Initialized
+INFO - 2019-02-21 11:09:30 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 11:09:30 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 11:09:30 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:09:30 --> Form Validation Class Initialized
+INFO - 2019-02-21 11:09:30 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:09:30 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:09:30 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 11:09:30 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:09:30 --> Final output sent to browser
+DEBUG - 2019-02-21 11:09:30 --> Total execution time: 0.8250
+INFO - 2019-02-21 11:09:31 --> Config Class Initialized
+INFO - 2019-02-21 11:09:31 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:09:31 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:09:31 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:09:31 --> URI Class Initialized
+INFO - 2019-02-21 11:09:31 --> Router Class Initialized
+INFO - 2019-02-21 11:09:31 --> Output Class Initialized
+INFO - 2019-02-21 11:09:31 --> Security Class Initialized
+DEBUG - 2019-02-21 11:09:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:09:32 --> Input Class Initialized
+INFO - 2019-02-21 11:09:32 --> Language Class Initialized
+INFO - 2019-02-21 11:09:32 --> Loader Class Initialized
+INFO - 2019-02-21 11:09:32 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:09:32 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:09:32 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:09:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:09:32 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:09:32 --> Email Class Initialized
+INFO - 2019-02-21 11:09:32 --> Controller Class Initialized
+INFO - 2019-02-21 11:09:32 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:09:32 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:09:32 --> Pagination Class Initialized
+INFO - 2019-02-21 11:09:32 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:09:32 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:09:32 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:09:32 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:09:32 --> Final output sent to browser
+DEBUG - 2019-02-21 11:09:32 --> Total execution time: 0.9814
+INFO - 2019-02-21 11:15:58 --> Config Class Initialized
+INFO - 2019-02-21 11:15:58 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:15:58 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:15:58 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:15:58 --> URI Class Initialized
+INFO - 2019-02-21 11:15:58 --> Router Class Initialized
+INFO - 2019-02-21 11:15:58 --> Output Class Initialized
+INFO - 2019-02-21 11:15:58 --> Security Class Initialized
+DEBUG - 2019-02-21 11:15:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:15:58 --> Input Class Initialized
+INFO - 2019-02-21 11:15:58 --> Language Class Initialized
+INFO - 2019-02-21 11:15:58 --> Loader Class Initialized
+INFO - 2019-02-21 11:15:58 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:15:58 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:15:58 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:15:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:15:58 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:15:58 --> Email Class Initialized
+INFO - 2019-02-21 11:15:58 --> Controller Class Initialized
+INFO - 2019-02-21 11:15:58 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:15:58 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:15:58 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:15:58 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 11:15:58 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:15:58 --> Final output sent to browser
+DEBUG - 2019-02-21 11:15:58 --> Total execution time: 0.6754
+INFO - 2019-02-21 11:44:24 --> Config Class Initialized
+INFO - 2019-02-21 11:44:24 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:44:24 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:44:24 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:44:24 --> URI Class Initialized
+INFO - 2019-02-21 11:44:24 --> Router Class Initialized
+INFO - 2019-02-21 11:44:24 --> Output Class Initialized
+INFO - 2019-02-21 11:44:24 --> Security Class Initialized
+DEBUG - 2019-02-21 11:44:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:44:24 --> Input Class Initialized
+INFO - 2019-02-21 11:44:24 --> Language Class Initialized
+INFO - 2019-02-21 11:44:24 --> Loader Class Initialized
+INFO - 2019-02-21 11:44:24 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:44:24 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:44:24 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:44:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:44:24 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:44:24 --> Email Class Initialized
+INFO - 2019-02-21 11:44:24 --> Controller Class Initialized
+INFO - 2019-02-21 11:44:24 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 11:44:24 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 11:44:24 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:44:24 --> Form Validation Class Initialized
+INFO - 2019-02-21 11:44:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:44:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:44:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 11:44:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:44:24 --> Final output sent to browser
+DEBUG - 2019-02-21 11:44:25 --> Total execution time: 0.7381
+INFO - 2019-02-21 11:44:28 --> Config Class Initialized
+INFO - 2019-02-21 11:44:28 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:44:28 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:44:28 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:44:28 --> URI Class Initialized
+INFO - 2019-02-21 11:44:28 --> Router Class Initialized
+INFO - 2019-02-21 11:44:28 --> Output Class Initialized
+INFO - 2019-02-21 11:44:29 --> Security Class Initialized
+DEBUG - 2019-02-21 11:44:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:44:29 --> Input Class Initialized
+INFO - 2019-02-21 11:44:29 --> Language Class Initialized
+INFO - 2019-02-21 11:44:29 --> Loader Class Initialized
+INFO - 2019-02-21 11:44:29 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:44:29 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:44:29 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:44:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:44:29 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:44:29 --> Email Class Initialized
+INFO - 2019-02-21 11:44:29 --> Controller Class Initialized
+INFO - 2019-02-21 11:44:29 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:44:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:44:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:44:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-21 11:44:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:44:29 --> Final output sent to browser
+DEBUG - 2019-02-21 11:44:29 --> Total execution time: 1.0484
+INFO - 2019-02-21 11:44:40 --> Config Class Initialized
+INFO - 2019-02-21 11:44:40 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:44:40 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:44:40 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:44:40 --> URI Class Initialized
+INFO - 2019-02-21 11:44:40 --> Router Class Initialized
+INFO - 2019-02-21 11:44:40 --> Output Class Initialized
+INFO - 2019-02-21 11:44:40 --> Security Class Initialized
+DEBUG - 2019-02-21 11:44:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:44:40 --> Input Class Initialized
+INFO - 2019-02-21 11:44:40 --> Language Class Initialized
+INFO - 2019-02-21 11:44:40 --> Loader Class Initialized
+INFO - 2019-02-21 11:44:40 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:44:40 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:44:40 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:44:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:44:40 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:44:40 --> Email Class Initialized
+INFO - 2019-02-21 11:44:40 --> Controller Class Initialized
+INFO - 2019-02-21 11:44:40 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 11:44:40 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 11:44:40 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:44:40 --> Form Validation Class Initialized
+INFO - 2019-02-21 11:44:40 --> Config Class Initialized
+INFO - 2019-02-21 11:44:40 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:44:40 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:44:40 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:44:40 --> URI Class Initialized
+INFO - 2019-02-21 11:44:40 --> Router Class Initialized
+INFO - 2019-02-21 11:44:40 --> Output Class Initialized
+INFO - 2019-02-21 11:44:40 --> Security Class Initialized
+DEBUG - 2019-02-21 11:44:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:44:41 --> Input Class Initialized
+INFO - 2019-02-21 11:44:41 --> Language Class Initialized
+INFO - 2019-02-21 11:44:41 --> Loader Class Initialized
+INFO - 2019-02-21 11:44:41 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:44:41 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:44:41 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:44:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:44:41 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:44:41 --> Email Class Initialized
+INFO - 2019-02-21 11:44:41 --> Controller Class Initialized
+INFO - 2019-02-21 11:44:41 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:44:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:44:41 --> Pagination Class Initialized
+INFO - 2019-02-21 11:44:41 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:44:41 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:44:41 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:44:41 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:44:41 --> Final output sent to browser
+DEBUG - 2019-02-21 11:44:41 --> Total execution time: 0.7018
+INFO - 2019-02-21 11:44:45 --> Config Class Initialized
+INFO - 2019-02-21 11:44:45 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:44:45 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:44:45 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:44:45 --> URI Class Initialized
+INFO - 2019-02-21 11:44:45 --> Router Class Initialized
+INFO - 2019-02-21 11:44:45 --> Output Class Initialized
+INFO - 2019-02-21 11:44:45 --> Security Class Initialized
+DEBUG - 2019-02-21 11:44:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:44:45 --> Input Class Initialized
+INFO - 2019-02-21 11:44:45 --> Language Class Initialized
+INFO - 2019-02-21 11:44:45 --> Loader Class Initialized
+INFO - 2019-02-21 11:44:45 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:44:45 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:44:45 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:44:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:44:46 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:44:46 --> Email Class Initialized
+INFO - 2019-02-21 11:44:46 --> Controller Class Initialized
+INFO - 2019-02-21 11:44:46 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 11:44:46 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 11:44:46 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:44:46 --> Form Validation Class Initialized
+INFO - 2019-02-21 11:44:46 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:44:46 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:44:46 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-21 11:44:46 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:44:46 --> Final output sent to browser
+DEBUG - 2019-02-21 11:44:46 --> Total execution time: 0.7887
+INFO - 2019-02-21 11:44:50 --> Config Class Initialized
+INFO - 2019-02-21 11:44:50 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:44:50 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:44:50 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:44:50 --> URI Class Initialized
+INFO - 2019-02-21 11:44:50 --> Router Class Initialized
+INFO - 2019-02-21 11:44:50 --> Output Class Initialized
+INFO - 2019-02-21 11:44:50 --> Security Class Initialized
+DEBUG - 2019-02-21 11:44:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:44:50 --> Input Class Initialized
+INFO - 2019-02-21 11:44:50 --> Language Class Initialized
+INFO - 2019-02-21 11:44:50 --> Loader Class Initialized
+INFO - 2019-02-21 11:44:50 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:44:50 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:44:50 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:44:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:44:50 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:44:50 --> Email Class Initialized
+INFO - 2019-02-21 11:44:50 --> Controller Class Initialized
+INFO - 2019-02-21 11:44:50 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:44:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:44:51 --> Pagination Class Initialized
+INFO - 2019-02-21 11:44:51 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:44:51 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:44:51 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:44:51 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:44:51 --> Final output sent to browser
+DEBUG - 2019-02-21 11:44:51 --> Total execution time: 0.7642
+INFO - 2019-02-21 11:44:54 --> Config Class Initialized
+INFO - 2019-02-21 11:44:54 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:44:54 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:44:54 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:44:54 --> URI Class Initialized
+INFO - 2019-02-21 11:44:54 --> Router Class Initialized
+INFO - 2019-02-21 11:44:54 --> Output Class Initialized
+INFO - 2019-02-21 11:44:54 --> Security Class Initialized
+DEBUG - 2019-02-21 11:44:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:44:54 --> Input Class Initialized
+INFO - 2019-02-21 11:44:54 --> Language Class Initialized
+INFO - 2019-02-21 11:44:54 --> Loader Class Initialized
+INFO - 2019-02-21 11:44:54 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:44:54 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:44:54 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:44:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:44:54 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:44:54 --> Email Class Initialized
+INFO - 2019-02-21 11:44:54 --> Controller Class Initialized
+DEBUG - 2019-02-21 11:44:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-02-21 11:44:54 --> Cart Class Initialized
+INFO - 2019-02-21 11:44:54 --> Model "Carrito_model" initialized
+INFO - 2019-02-21 11:44:54 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:44:54 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:44:54 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:44:54 --> File loaded: C:\xampp\htdocs\tienda\application\views\carrito.php
+INFO - 2019-02-21 11:44:54 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:44:54 --> Final output sent to browser
+DEBUG - 2019-02-21 11:44:54 --> Total execution time: 0.8479
+INFO - 2019-02-21 11:45:00 --> Config Class Initialized
+INFO - 2019-02-21 11:45:00 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:45:00 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:45:00 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:45:00 --> URI Class Initialized
+INFO - 2019-02-21 11:45:00 --> Router Class Initialized
+INFO - 2019-02-21 11:45:00 --> Output Class Initialized
+INFO - 2019-02-21 11:45:00 --> Security Class Initialized
+DEBUG - 2019-02-21 11:45:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:45:00 --> Input Class Initialized
+INFO - 2019-02-21 11:45:00 --> Language Class Initialized
+INFO - 2019-02-21 11:45:00 --> Loader Class Initialized
+INFO - 2019-02-21 11:45:00 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:45:00 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:45:00 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:45:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:45:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:45:00 --> Email Class Initialized
+INFO - 2019-02-21 11:45:00 --> Controller Class Initialized
+INFO - 2019-02-21 11:45:00 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:45:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:45:00 --> Pagination Class Initialized
+INFO - 2019-02-21 11:45:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:45:01 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:45:01 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:45:01 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:45:01 --> Final output sent to browser
+DEBUG - 2019-02-21 11:45:01 --> Total execution time: 0.7484
+INFO - 2019-02-21 11:45:41 --> Config Class Initialized
+INFO - 2019-02-21 11:45:41 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:45:41 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:45:41 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:45:41 --> URI Class Initialized
+DEBUG - 2019-02-21 11:45:41 --> No URI present. Default controller set.
+INFO - 2019-02-21 11:45:41 --> Router Class Initialized
+INFO - 2019-02-21 11:45:41 --> Output Class Initialized
+INFO - 2019-02-21 11:45:41 --> Security Class Initialized
+DEBUG - 2019-02-21 11:45:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:45:41 --> Input Class Initialized
+INFO - 2019-02-21 11:45:41 --> Language Class Initialized
+INFO - 2019-02-21 11:45:41 --> Loader Class Initialized
+INFO - 2019-02-21 11:45:41 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:45:41 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:45:41 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:45:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:45:41 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:45:41 --> Email Class Initialized
+INFO - 2019-02-21 11:45:41 --> Controller Class Initialized
+INFO - 2019-02-21 11:45:41 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:45:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:45:41 --> Pagination Class Initialized
+INFO - 2019-02-21 11:45:41 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:45:41 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:45:41 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:45:41 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:45:41 --> Final output sent to browser
+DEBUG - 2019-02-21 11:45:42 --> Total execution time: 0.7998
+INFO - 2019-02-21 11:45:47 --> Config Class Initialized
+INFO - 2019-02-21 11:45:47 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:45:47 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:45:48 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:45:48 --> URI Class Initialized
+INFO - 2019-02-21 11:45:48 --> Router Class Initialized
+INFO - 2019-02-21 11:45:48 --> Output Class Initialized
+INFO - 2019-02-21 11:45:48 --> Security Class Initialized
+DEBUG - 2019-02-21 11:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:45:48 --> Input Class Initialized
+INFO - 2019-02-21 11:45:48 --> Language Class Initialized
+INFO - 2019-02-21 11:45:48 --> Loader Class Initialized
+INFO - 2019-02-21 11:45:48 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:45:48 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:45:48 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:45:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:45:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:45:48 --> Email Class Initialized
+INFO - 2019-02-21 11:45:48 --> Controller Class Initialized
+INFO - 2019-02-21 11:45:48 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:45:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:45:48 --> Pagination Class Initialized
+INFO - 2019-02-21 11:45:48 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:45:48 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:45:48 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:45:48 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:45:48 --> Final output sent to browser
+DEBUG - 2019-02-21 11:45:48 --> Total execution time: 0.7916
+INFO - 2019-02-21 11:46:01 --> Config Class Initialized
+INFO - 2019-02-21 11:46:01 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:46:01 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:46:01 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:46:01 --> URI Class Initialized
+INFO - 2019-02-21 11:46:01 --> Router Class Initialized
+INFO - 2019-02-21 11:46:01 --> Output Class Initialized
+INFO - 2019-02-21 11:46:01 --> Security Class Initialized
+DEBUG - 2019-02-21 11:46:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:46:01 --> Input Class Initialized
+INFO - 2019-02-21 11:46:01 --> Language Class Initialized
+INFO - 2019-02-21 11:46:01 --> Loader Class Initialized
+INFO - 2019-02-21 11:46:01 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:46:01 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:46:01 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:46:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:46:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:46:01 --> Email Class Initialized
+INFO - 2019-02-21 11:46:01 --> Controller Class Initialized
+INFO - 2019-02-21 11:46:01 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:46:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:46:02 --> Pagination Class Initialized
+INFO - 2019-02-21 11:46:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:46:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:46:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:46:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:46:02 --> Final output sent to browser
+DEBUG - 2019-02-21 11:46:02 --> Total execution time: 0.7148
+INFO - 2019-02-21 11:46:04 --> Config Class Initialized
+INFO - 2019-02-21 11:46:04 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:46:04 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:46:04 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:46:04 --> URI Class Initialized
+INFO - 2019-02-21 11:46:04 --> Router Class Initialized
+INFO - 2019-02-21 11:46:04 --> Output Class Initialized
+INFO - 2019-02-21 11:46:04 --> Security Class Initialized
+DEBUG - 2019-02-21 11:46:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:46:04 --> Input Class Initialized
+INFO - 2019-02-21 11:46:04 --> Language Class Initialized
+INFO - 2019-02-21 11:46:04 --> Loader Class Initialized
+INFO - 2019-02-21 11:46:04 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:46:04 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:46:04 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:46:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:46:05 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:46:05 --> Email Class Initialized
+INFO - 2019-02-21 11:46:05 --> Controller Class Initialized
+INFO - 2019-02-21 11:46:05 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:46:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:46:05 --> Pagination Class Initialized
+INFO - 2019-02-21 11:46:05 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:46:05 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:46:05 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:46:05 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:46:05 --> Final output sent to browser
+DEBUG - 2019-02-21 11:46:05 --> Total execution time: 0.7294
+INFO - 2019-02-21 11:47:22 --> Config Class Initialized
+INFO - 2019-02-21 11:47:22 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:47:22 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:47:22 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:47:22 --> URI Class Initialized
+INFO - 2019-02-21 11:47:23 --> Router Class Initialized
+INFO - 2019-02-21 11:47:23 --> Output Class Initialized
+INFO - 2019-02-21 11:47:23 --> Security Class Initialized
+DEBUG - 2019-02-21 11:47:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:47:23 --> Input Class Initialized
+INFO - 2019-02-21 11:47:23 --> Language Class Initialized
+INFO - 2019-02-21 11:47:23 --> Loader Class Initialized
+INFO - 2019-02-21 11:47:23 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:47:23 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:47:23 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:47:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:47:23 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:47:23 --> Email Class Initialized
+INFO - 2019-02-21 11:47:23 --> Controller Class Initialized
+INFO - 2019-02-21 11:47:23 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:47:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:47:23 --> Pagination Class Initialized
+INFO - 2019-02-21 11:47:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:47:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:47:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:47:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:47:24 --> Final output sent to browser
+DEBUG - 2019-02-21 11:47:24 --> Total execution time: 1.5194
+INFO - 2019-02-21 11:47:28 --> Config Class Initialized
+INFO - 2019-02-21 11:47:28 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:47:28 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:47:28 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:47:28 --> URI Class Initialized
+INFO - 2019-02-21 11:47:28 --> Router Class Initialized
+INFO - 2019-02-21 11:47:28 --> Output Class Initialized
+INFO - 2019-02-21 11:47:28 --> Security Class Initialized
+DEBUG - 2019-02-21 11:47:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:47:29 --> Input Class Initialized
+INFO - 2019-02-21 11:47:29 --> Language Class Initialized
+INFO - 2019-02-21 11:47:29 --> Loader Class Initialized
+INFO - 2019-02-21 11:47:29 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:47:29 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:47:29 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:47:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:47:29 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:47:29 --> Email Class Initialized
+INFO - 2019-02-21 11:47:29 --> Controller Class Initialized
+INFO - 2019-02-21 11:47:29 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:47:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:47:29 --> Pagination Class Initialized
+INFO - 2019-02-21 11:47:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:47:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:47:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:47:29 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:47:29 --> Final output sent to browser
+DEBUG - 2019-02-21 11:47:29 --> Total execution time: 1.4076
+INFO - 2019-02-21 11:47:34 --> Config Class Initialized
+INFO - 2019-02-21 11:47:34 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:47:34 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:47:34 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:47:34 --> URI Class Initialized
+INFO - 2019-02-21 11:47:34 --> Router Class Initialized
+INFO - 2019-02-21 11:47:34 --> Output Class Initialized
+INFO - 2019-02-21 11:47:34 --> Security Class Initialized
+DEBUG - 2019-02-21 11:47:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:47:34 --> Input Class Initialized
+INFO - 2019-02-21 11:47:34 --> Language Class Initialized
+INFO - 2019-02-21 11:47:34 --> Loader Class Initialized
+INFO - 2019-02-21 11:47:34 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:47:34 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:47:34 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:47:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:47:34 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:47:34 --> Email Class Initialized
+INFO - 2019-02-21 11:47:34 --> Controller Class Initialized
+INFO - 2019-02-21 11:47:34 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:47:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:47:34 --> Pagination Class Initialized
+INFO - 2019-02-21 11:47:34 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:47:35 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:47:35 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:47:35 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:47:35 --> Final output sent to browser
+DEBUG - 2019-02-21 11:47:35 --> Total execution time: 0.8650
+INFO - 2019-02-21 11:48:54 --> Config Class Initialized
+INFO - 2019-02-21 11:48:54 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:48:54 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:48:54 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:48:54 --> URI Class Initialized
+INFO - 2019-02-21 11:48:54 --> Router Class Initialized
+INFO - 2019-02-21 11:48:54 --> Output Class Initialized
+INFO - 2019-02-21 11:48:54 --> Security Class Initialized
+DEBUG - 2019-02-21 11:48:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:48:54 --> Input Class Initialized
+INFO - 2019-02-21 11:48:54 --> Language Class Initialized
+INFO - 2019-02-21 11:48:54 --> Loader Class Initialized
+INFO - 2019-02-21 11:48:54 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:48:54 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:48:54 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:48:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:48:54 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:48:54 --> Email Class Initialized
+INFO - 2019-02-21 11:48:54 --> Controller Class Initialized
+INFO - 2019-02-21 11:48:54 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:48:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:48:54 --> Pagination Class Initialized
+INFO - 2019-02-21 11:48:55 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:48:55 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:48:55 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:48:55 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:48:55 --> Final output sent to browser
+DEBUG - 2019-02-21 11:48:55 --> Total execution time: 0.8226
+INFO - 2019-02-21 11:48:57 --> Config Class Initialized
+INFO - 2019-02-21 11:48:57 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:48:57 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:48:57 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:48:57 --> URI Class Initialized
+INFO - 2019-02-21 11:48:57 --> Router Class Initialized
+INFO - 2019-02-21 11:48:57 --> Output Class Initialized
+INFO - 2019-02-21 11:48:57 --> Security Class Initialized
+DEBUG - 2019-02-21 11:48:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:48:57 --> Input Class Initialized
+INFO - 2019-02-21 11:48:57 --> Language Class Initialized
+INFO - 2019-02-21 11:48:57 --> Loader Class Initialized
+INFO - 2019-02-21 11:48:57 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:48:57 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:48:57 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:48:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:48:57 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:48:57 --> Email Class Initialized
+INFO - 2019-02-21 11:48:57 --> Controller Class Initialized
+INFO - 2019-02-21 11:48:57 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:48:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:48:58 --> Pagination Class Initialized
+INFO - 2019-02-21 11:48:58 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:48:58 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:48:58 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:48:58 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:48:58 --> Final output sent to browser
+DEBUG - 2019-02-21 11:48:58 --> Total execution time: 0.9402
+INFO - 2019-02-21 11:49:01 --> Config Class Initialized
+INFO - 2019-02-21 11:49:01 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:49:01 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:49:01 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:49:01 --> URI Class Initialized
+INFO - 2019-02-21 11:49:01 --> Router Class Initialized
+INFO - 2019-02-21 11:49:01 --> Output Class Initialized
+INFO - 2019-02-21 11:49:01 --> Security Class Initialized
+DEBUG - 2019-02-21 11:49:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:49:01 --> Input Class Initialized
+INFO - 2019-02-21 11:49:01 --> Language Class Initialized
+INFO - 2019-02-21 11:49:01 --> Loader Class Initialized
+INFO - 2019-02-21 11:49:01 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:49:01 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:49:01 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:49:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:49:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:49:01 --> Email Class Initialized
+INFO - 2019-02-21 11:49:01 --> Controller Class Initialized
+INFO - 2019-02-21 11:49:01 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:49:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:49:01 --> Pagination Class Initialized
+INFO - 2019-02-21 11:49:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:49:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:49:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:49:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:49:02 --> Final output sent to browser
+DEBUG - 2019-02-21 11:49:02 --> Total execution time: 0.8931
+INFO - 2019-02-21 11:53:56 --> Config Class Initialized
+INFO - 2019-02-21 11:53:56 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:53:56 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:53:56 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:53:56 --> URI Class Initialized
+INFO - 2019-02-21 11:53:56 --> Router Class Initialized
+INFO - 2019-02-21 11:53:56 --> Output Class Initialized
+INFO - 2019-02-21 11:53:56 --> Security Class Initialized
+DEBUG - 2019-02-21 11:53:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:53:56 --> Input Class Initialized
+INFO - 2019-02-21 11:53:56 --> Language Class Initialized
+INFO - 2019-02-21 11:53:56 --> Loader Class Initialized
+INFO - 2019-02-21 11:53:56 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:53:56 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:53:56 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:53:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:53:56 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:53:56 --> Email Class Initialized
+INFO - 2019-02-21 11:53:56 --> Controller Class Initialized
+INFO - 2019-02-21 11:53:57 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:53:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:53:57 --> Pagination Class Initialized
+INFO - 2019-02-21 11:53:57 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:53:57 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:53:57 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:53:57 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:53:57 --> Final output sent to browser
+DEBUG - 2019-02-21 11:53:57 --> Total execution time: 0.9630
+INFO - 2019-02-21 11:54:00 --> Config Class Initialized
+INFO - 2019-02-21 11:54:00 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:54:00 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:54:00 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:54:00 --> URI Class Initialized
+INFO - 2019-02-21 11:54:00 --> Router Class Initialized
+INFO - 2019-02-21 11:54:00 --> Output Class Initialized
+INFO - 2019-02-21 11:54:00 --> Security Class Initialized
+DEBUG - 2019-02-21 11:54:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:54:00 --> Input Class Initialized
+INFO - 2019-02-21 11:54:00 --> Language Class Initialized
+INFO - 2019-02-21 11:54:00 --> Loader Class Initialized
+INFO - 2019-02-21 11:54:00 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:54:00 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:54:00 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:54:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:54:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:54:00 --> Email Class Initialized
+INFO - 2019-02-21 11:54:00 --> Controller Class Initialized
+INFO - 2019-02-21 11:54:00 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:54:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:54:00 --> Pagination Class Initialized
+INFO - 2019-02-21 11:54:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:54:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:54:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:54:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:54:00 --> Final output sent to browser
+DEBUG - 2019-02-21 11:54:01 --> Total execution time: 0.8813
+INFO - 2019-02-21 11:54:03 --> Config Class Initialized
+INFO - 2019-02-21 11:54:03 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:54:03 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:54:03 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:54:03 --> URI Class Initialized
+INFO - 2019-02-21 11:54:03 --> Router Class Initialized
+INFO - 2019-02-21 11:54:03 --> Output Class Initialized
+INFO - 2019-02-21 11:54:03 --> Security Class Initialized
+DEBUG - 2019-02-21 11:54:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:54:03 --> Input Class Initialized
+INFO - 2019-02-21 11:54:04 --> Language Class Initialized
+INFO - 2019-02-21 11:54:04 --> Loader Class Initialized
+INFO - 2019-02-21 11:54:04 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:54:04 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:54:04 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:54:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:54:04 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:54:04 --> Email Class Initialized
+INFO - 2019-02-21 11:54:04 --> Controller Class Initialized
+INFO - 2019-02-21 11:54:04 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:54:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:54:04 --> Pagination Class Initialized
+INFO - 2019-02-21 11:54:04 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:54:04 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:54:04 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:54:04 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:54:04 --> Final output sent to browser
+DEBUG - 2019-02-21 11:54:04 --> Total execution time: 0.9043
+INFO - 2019-02-21 11:56:14 --> Config Class Initialized
+INFO - 2019-02-21 11:56:14 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:56:14 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:56:14 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:56:14 --> URI Class Initialized
+INFO - 2019-02-21 11:56:14 --> Router Class Initialized
+INFO - 2019-02-21 11:56:14 --> Output Class Initialized
+INFO - 2019-02-21 11:56:14 --> Security Class Initialized
+DEBUG - 2019-02-21 11:56:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:56:14 --> Input Class Initialized
+INFO - 2019-02-21 11:56:14 --> Language Class Initialized
+INFO - 2019-02-21 11:56:14 --> Loader Class Initialized
+INFO - 2019-02-21 11:56:15 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:56:15 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:56:15 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:56:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:56:15 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:56:15 --> Email Class Initialized
+INFO - 2019-02-21 11:56:15 --> Controller Class Initialized
+INFO - 2019-02-21 11:56:15 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:56:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:56:15 --> Pagination Class Initialized
+INFO - 2019-02-21 11:56:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:56:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:56:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:56:15 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:56:15 --> Final output sent to browser
+DEBUG - 2019-02-21 11:56:15 --> Total execution time: 1.1478
+INFO - 2019-02-21 11:56:18 --> Config Class Initialized
+INFO - 2019-02-21 11:56:18 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:56:18 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:56:18 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:56:18 --> URI Class Initialized
+INFO - 2019-02-21 11:56:19 --> Router Class Initialized
+INFO - 2019-02-21 11:56:19 --> Output Class Initialized
+INFO - 2019-02-21 11:56:19 --> Security Class Initialized
+DEBUG - 2019-02-21 11:56:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:56:19 --> Input Class Initialized
+INFO - 2019-02-21 11:56:19 --> Language Class Initialized
+INFO - 2019-02-21 11:56:19 --> Loader Class Initialized
+INFO - 2019-02-21 11:56:19 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:56:19 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:56:19 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:56:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:56:19 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:56:19 --> Email Class Initialized
+INFO - 2019-02-21 11:56:19 --> Controller Class Initialized
+INFO - 2019-02-21 11:56:19 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:56:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:56:19 --> Pagination Class Initialized
+INFO - 2019-02-21 11:56:19 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:56:19 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:56:19 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:56:19 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:56:19 --> Final output sent to browser
+DEBUG - 2019-02-21 11:56:19 --> Total execution time: 1.0766
+INFO - 2019-02-21 11:56:22 --> Config Class Initialized
+INFO - 2019-02-21 11:56:22 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:56:22 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:56:22 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:56:22 --> URI Class Initialized
+INFO - 2019-02-21 11:56:22 --> Router Class Initialized
+INFO - 2019-02-21 11:56:22 --> Output Class Initialized
+INFO - 2019-02-21 11:56:22 --> Security Class Initialized
+DEBUG - 2019-02-21 11:56:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:56:22 --> Input Class Initialized
+INFO - 2019-02-21 11:56:22 --> Language Class Initialized
+INFO - 2019-02-21 11:56:22 --> Loader Class Initialized
+INFO - 2019-02-21 11:56:22 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:56:22 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:56:22 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:56:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:56:22 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:56:22 --> Email Class Initialized
+INFO - 2019-02-21 11:56:22 --> Controller Class Initialized
+INFO - 2019-02-21 11:56:22 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:56:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:56:22 --> Pagination Class Initialized
+INFO - 2019-02-21 11:56:22 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:56:22 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:56:23 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:56:23 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:56:23 --> Final output sent to browser
+DEBUG - 2019-02-21 11:56:23 --> Total execution time: 0.8688
+INFO - 2019-02-21 11:56:25 --> Config Class Initialized
+INFO - 2019-02-21 11:56:25 --> Hooks Class Initialized
+DEBUG - 2019-02-21 11:56:25 --> UTF-8 Support Enabled
+INFO - 2019-02-21 11:56:25 --> Utf8 Class Initialized
+INFO - 2019-02-21 11:56:25 --> URI Class Initialized
+INFO - 2019-02-21 11:56:25 --> Router Class Initialized
+INFO - 2019-02-21 11:56:25 --> Output Class Initialized
+INFO - 2019-02-21 11:56:25 --> Security Class Initialized
+DEBUG - 2019-02-21 11:56:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 11:56:25 --> Input Class Initialized
+INFO - 2019-02-21 11:56:25 --> Language Class Initialized
+INFO - 2019-02-21 11:56:25 --> Loader Class Initialized
+INFO - 2019-02-21 11:56:25 --> Helper loaded: url_helper
+INFO - 2019-02-21 11:56:26 --> Helper loaded: form_helper
+INFO - 2019-02-21 11:56:26 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 11:56:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 11:56:26 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 11:56:26 --> Email Class Initialized
+INFO - 2019-02-21 11:56:26 --> Controller Class Initialized
+INFO - 2019-02-21 11:56:26 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 11:56:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 11:56:26 --> Pagination Class Initialized
+INFO - 2019-02-21 11:56:26 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 11:56:26 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 11:56:26 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 11:56:26 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 11:56:26 --> Final output sent to browser
+DEBUG - 2019-02-21 11:56:26 --> Total execution time: 0.9997
+INFO - 2019-02-21 12:01:15 --> Config Class Initialized
+INFO - 2019-02-21 12:01:15 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:01:15 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:01:15 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:01:15 --> URI Class Initialized
+INFO - 2019-02-21 12:01:15 --> Router Class Initialized
+INFO - 2019-02-21 12:01:15 --> Output Class Initialized
+INFO - 2019-02-21 12:01:15 --> Security Class Initialized
+DEBUG - 2019-02-21 12:01:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:01:15 --> Input Class Initialized
+INFO - 2019-02-21 12:01:15 --> Language Class Initialized
+INFO - 2019-02-21 12:01:15 --> Loader Class Initialized
+INFO - 2019-02-21 12:01:15 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:01:15 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:01:15 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:01:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:01:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:01:16 --> Email Class Initialized
+INFO - 2019-02-21 12:01:16 --> Controller Class Initialized
+INFO - 2019-02-21 12:01:16 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:01:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 12:01:16 --> Pagination Class Initialized
+ERROR - 2019-02-21 12:01:16 --> Severity: Notice --> Undefined variable: pos C:\xampp\htdocs\tienda\application\controllers\Principal.php 101
+INFO - 2019-02-21 12:01:16 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:01:16 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:01:16 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 12:01:16 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:01:16 --> Final output sent to browser
+DEBUG - 2019-02-21 12:01:16 --> Total execution time: 0.8902
+INFO - 2019-02-21 12:03:16 --> Config Class Initialized
+INFO - 2019-02-21 12:03:16 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:03:16 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:03:16 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:03:16 --> URI Class Initialized
+DEBUG - 2019-02-21 12:03:16 --> No URI present. Default controller set.
+INFO - 2019-02-21 12:03:16 --> Router Class Initialized
+INFO - 2019-02-21 12:03:16 --> Output Class Initialized
+INFO - 2019-02-21 12:03:16 --> Security Class Initialized
+DEBUG - 2019-02-21 12:03:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:03:17 --> Input Class Initialized
+INFO - 2019-02-21 12:03:17 --> Language Class Initialized
+INFO - 2019-02-21 12:03:17 --> Loader Class Initialized
+INFO - 2019-02-21 12:03:17 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:03:17 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:03:17 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:03:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:03:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:03:17 --> Email Class Initialized
+INFO - 2019-02-21 12:03:17 --> Controller Class Initialized
+INFO - 2019-02-21 12:03:17 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:03:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 12:03:17 --> Pagination Class Initialized
+INFO - 2019-02-21 12:03:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:03:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:03:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 12:03:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:03:17 --> Final output sent to browser
+DEBUG - 2019-02-21 12:03:17 --> Total execution time: 0.8844
+INFO - 2019-02-21 12:03:23 --> Config Class Initialized
+INFO - 2019-02-21 12:03:23 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:03:23 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:03:23 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:03:23 --> URI Class Initialized
+INFO - 2019-02-21 12:03:23 --> Router Class Initialized
+INFO - 2019-02-21 12:03:24 --> Output Class Initialized
+INFO - 2019-02-21 12:03:24 --> Security Class Initialized
+DEBUG - 2019-02-21 12:03:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:03:24 --> Input Class Initialized
+INFO - 2019-02-21 12:03:24 --> Language Class Initialized
+INFO - 2019-02-21 12:03:24 --> Loader Class Initialized
+INFO - 2019-02-21 12:03:24 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:03:24 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:03:24 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:03:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:03:24 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:03:24 --> Email Class Initialized
+INFO - 2019-02-21 12:03:24 --> Controller Class Initialized
+INFO - 2019-02-21 12:03:24 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:03:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 12:03:24 --> Pagination Class Initialized
+INFO - 2019-02-21 12:03:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:03:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:03:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 12:03:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:03:24 --> Final output sent to browser
+DEBUG - 2019-02-21 12:03:24 --> Total execution time: 0.9348
+INFO - 2019-02-21 12:03:27 --> Config Class Initialized
+INFO - 2019-02-21 12:03:27 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:03:27 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:03:27 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:03:27 --> URI Class Initialized
+INFO - 2019-02-21 12:03:27 --> Router Class Initialized
+INFO - 2019-02-21 12:03:27 --> Output Class Initialized
+INFO - 2019-02-21 12:03:27 --> Security Class Initialized
+DEBUG - 2019-02-21 12:03:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:03:27 --> Input Class Initialized
+INFO - 2019-02-21 12:03:27 --> Language Class Initialized
+INFO - 2019-02-21 12:03:27 --> Loader Class Initialized
+INFO - 2019-02-21 12:03:27 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:03:27 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:03:27 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:03:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:03:27 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:03:27 --> Email Class Initialized
+INFO - 2019-02-21 12:03:27 --> Controller Class Initialized
+INFO - 2019-02-21 12:03:27 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:03:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 12:03:28 --> Pagination Class Initialized
+INFO - 2019-02-21 12:03:28 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:03:28 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:03:28 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 12:03:28 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:03:28 --> Final output sent to browser
+DEBUG - 2019-02-21 12:03:28 --> Total execution time: 0.9140
+INFO - 2019-02-21 12:03:30 --> Config Class Initialized
+INFO - 2019-02-21 12:03:30 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:03:30 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:03:30 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:03:30 --> URI Class Initialized
+INFO - 2019-02-21 12:03:31 --> Router Class Initialized
+INFO - 2019-02-21 12:03:31 --> Output Class Initialized
+INFO - 2019-02-21 12:03:31 --> Security Class Initialized
+DEBUG - 2019-02-21 12:03:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:03:31 --> Input Class Initialized
+INFO - 2019-02-21 12:03:31 --> Language Class Initialized
+INFO - 2019-02-21 12:03:31 --> Loader Class Initialized
+INFO - 2019-02-21 12:03:31 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:03:31 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:03:31 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:03:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:03:31 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:03:31 --> Email Class Initialized
+INFO - 2019-02-21 12:03:31 --> Controller Class Initialized
+INFO - 2019-02-21 12:03:31 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:03:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 12:03:31 --> Pagination Class Initialized
+INFO - 2019-02-21 12:03:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:03:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:03:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 12:03:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:03:31 --> Final output sent to browser
+DEBUG - 2019-02-21 12:03:32 --> Total execution time: 1.1415
+INFO - 2019-02-21 12:03:35 --> Config Class Initialized
+INFO - 2019-02-21 12:03:35 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:03:35 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:03:35 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:03:35 --> URI Class Initialized
+INFO - 2019-02-21 12:03:35 --> Router Class Initialized
+INFO - 2019-02-21 12:03:35 --> Output Class Initialized
+INFO - 2019-02-21 12:03:35 --> Security Class Initialized
+DEBUG - 2019-02-21 12:03:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:03:35 --> Input Class Initialized
+INFO - 2019-02-21 12:03:35 --> Language Class Initialized
+INFO - 2019-02-21 12:03:35 --> Loader Class Initialized
+INFO - 2019-02-21 12:03:35 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:03:35 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:03:36 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:03:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:03:36 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:03:36 --> Email Class Initialized
+INFO - 2019-02-21 12:03:36 --> Controller Class Initialized
+INFO - 2019-02-21 12:03:36 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:03:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 12:03:36 --> Pagination Class Initialized
+INFO - 2019-02-21 12:03:36 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:03:36 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:03:36 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 12:03:36 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:03:36 --> Final output sent to browser
+DEBUG - 2019-02-21 12:03:36 --> Total execution time: 1.1020
+INFO - 2019-02-21 12:03:44 --> Config Class Initialized
+INFO - 2019-02-21 12:03:44 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:03:44 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:03:44 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:03:44 --> URI Class Initialized
+INFO - 2019-02-21 12:03:44 --> Router Class Initialized
+INFO - 2019-02-21 12:03:44 --> Output Class Initialized
+INFO - 2019-02-21 12:03:44 --> Security Class Initialized
+DEBUG - 2019-02-21 12:03:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:03:44 --> Input Class Initialized
+INFO - 2019-02-21 12:03:44 --> Language Class Initialized
+INFO - 2019-02-21 12:03:44 --> Loader Class Initialized
+INFO - 2019-02-21 12:03:44 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:03:44 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:03:44 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:03:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:03:44 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:03:44 --> Email Class Initialized
+INFO - 2019-02-21 12:03:44 --> Controller Class Initialized
+INFO - 2019-02-21 12:03:44 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:03:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 12:03:45 --> Pagination Class Initialized
+INFO - 2019-02-21 12:03:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:03:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:03:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 12:03:45 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:03:45 --> Final output sent to browser
+DEBUG - 2019-02-21 12:03:45 --> Total execution time: 1.0804
+INFO - 2019-02-21 12:10:18 --> Config Class Initialized
+INFO - 2019-02-21 12:10:18 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:10:18 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:10:18 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:10:18 --> URI Class Initialized
+INFO - 2019-02-21 12:10:18 --> Router Class Initialized
+INFO - 2019-02-21 12:10:18 --> Output Class Initialized
+INFO - 2019-02-21 12:10:18 --> Security Class Initialized
+DEBUG - 2019-02-21 12:10:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:10:18 --> Input Class Initialized
+INFO - 2019-02-21 12:10:18 --> Language Class Initialized
+INFO - 2019-02-21 12:10:18 --> Loader Class Initialized
+INFO - 2019-02-21 12:10:18 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:10:18 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:10:18 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:10:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:10:18 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:10:18 --> Email Class Initialized
+INFO - 2019-02-21 12:10:18 --> Controller Class Initialized
+DEBUG - 2019-02-21 12:10:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-02-21 12:10:18 --> Cart Class Initialized
+INFO - 2019-02-21 12:10:18 --> Model "Carrito_model" initialized
+INFO - 2019-02-21 12:10:18 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:10:18 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:10:18 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:10:18 --> File loaded: C:\xampp\htdocs\tienda\application\views\carrito.php
+INFO - 2019-02-21 12:10:18 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:10:18 --> Final output sent to browser
+DEBUG - 2019-02-21 12:10:19 --> Total execution time: 0.8436
+INFO - 2019-02-21 12:10:23 --> Config Class Initialized
+INFO - 2019-02-21 12:10:23 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:10:23 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:10:23 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:10:23 --> URI Class Initialized
+INFO - 2019-02-21 12:10:23 --> Router Class Initialized
+INFO - 2019-02-21 12:10:23 --> Output Class Initialized
+INFO - 2019-02-21 12:10:23 --> Security Class Initialized
+DEBUG - 2019-02-21 12:10:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:10:23 --> Input Class Initialized
+INFO - 2019-02-21 12:10:23 --> Language Class Initialized
+INFO - 2019-02-21 12:10:23 --> Loader Class Initialized
+INFO - 2019-02-21 12:10:23 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:10:23 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:10:23 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:10:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:10:23 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:10:23 --> Email Class Initialized
+INFO - 2019-02-21 12:10:23 --> Controller Class Initialized
+INFO - 2019-02-21 12:10:23 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:10:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 12:10:23 --> Pagination Class Initialized
+INFO - 2019-02-21 12:10:23 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:10:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:10:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 12:10:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:10:24 --> Final output sent to browser
+DEBUG - 2019-02-21 12:10:24 --> Total execution time: 0.7965
+INFO - 2019-02-21 12:10:25 --> Config Class Initialized
+INFO - 2019-02-21 12:10:25 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:10:25 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:10:25 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:10:25 --> URI Class Initialized
+INFO - 2019-02-21 12:10:25 --> Router Class Initialized
+INFO - 2019-02-21 12:10:25 --> Output Class Initialized
+INFO - 2019-02-21 12:10:25 --> Security Class Initialized
+DEBUG - 2019-02-21 12:10:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:10:25 --> Input Class Initialized
+INFO - 2019-02-21 12:10:26 --> Language Class Initialized
+INFO - 2019-02-21 12:10:26 --> Loader Class Initialized
+INFO - 2019-02-21 12:10:26 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:10:26 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:10:26 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:10:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:10:26 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:10:26 --> Email Class Initialized
+INFO - 2019-02-21 12:10:26 --> Controller Class Initialized
+INFO - 2019-02-21 12:10:26 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:10:26 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:10:26 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:10:26 --> File loaded: C:\xampp\htdocs\tienda\application\views\producto.php
+INFO - 2019-02-21 12:10:26 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:10:26 --> Final output sent to browser
+DEBUG - 2019-02-21 12:10:26 --> Total execution time: 0.7963
+INFO - 2019-02-21 12:10:30 --> Config Class Initialized
+INFO - 2019-02-21 12:10:30 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:10:30 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:10:30 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:10:30 --> URI Class Initialized
+INFO - 2019-02-21 12:10:30 --> Router Class Initialized
+INFO - 2019-02-21 12:10:30 --> Output Class Initialized
+INFO - 2019-02-21 12:10:30 --> Security Class Initialized
+DEBUG - 2019-02-21 12:10:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:10:30 --> Input Class Initialized
+INFO - 2019-02-21 12:10:30 --> Language Class Initialized
+INFO - 2019-02-21 12:10:30 --> Loader Class Initialized
+INFO - 2019-02-21 12:10:30 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:10:30 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:10:30 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:10:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:10:30 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:10:30 --> Email Class Initialized
+INFO - 2019-02-21 12:10:30 --> Controller Class Initialized
+DEBUG - 2019-02-21 12:10:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-02-21 12:10:30 --> Cart Class Initialized
+INFO - 2019-02-21 12:10:31 --> Model "Carrito_model" initialized
+INFO - 2019-02-21 12:10:31 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:10:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:10:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:10:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\carrito.php
+INFO - 2019-02-21 12:10:31 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:10:31 --> Final output sent to browser
+DEBUG - 2019-02-21 12:10:31 --> Total execution time: 0.8551
+INFO - 2019-02-21 12:10:36 --> Config Class Initialized
+INFO - 2019-02-21 12:10:36 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:10:36 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:10:36 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:10:36 --> URI Class Initialized
+INFO - 2019-02-21 12:10:36 --> Router Class Initialized
+INFO - 2019-02-21 12:10:36 --> Output Class Initialized
+INFO - 2019-02-21 12:10:36 --> Security Class Initialized
+DEBUG - 2019-02-21 12:10:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:10:36 --> Input Class Initialized
+INFO - 2019-02-21 12:10:36 --> Language Class Initialized
+INFO - 2019-02-21 12:10:36 --> Loader Class Initialized
+INFO - 2019-02-21 12:10:36 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:10:37 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:10:37 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:10:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:10:37 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:10:37 --> Email Class Initialized
+INFO - 2019-02-21 12:10:37 --> Controller Class Initialized
+DEBUG - 2019-02-21 12:10:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-02-21 12:10:37 --> Cart Class Initialized
+INFO - 2019-02-21 12:10:37 --> Model "Carrito_model" initialized
+INFO - 2019-02-21 12:10:37 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:10:37 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:10:37 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:10:37 --> File loaded: C:\xampp\htdocs\tienda\application\views\carrito.php
+INFO - 2019-02-21 12:10:37 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:10:37 --> Final output sent to browser
+DEBUG - 2019-02-21 12:10:37 --> Total execution time: 0.7849
+INFO - 2019-02-21 12:10:43 --> Config Class Initialized
+INFO - 2019-02-21 12:10:43 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:10:43 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:10:43 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:10:43 --> URI Class Initialized
+INFO - 2019-02-21 12:10:43 --> Router Class Initialized
+INFO - 2019-02-21 12:10:43 --> Output Class Initialized
+INFO - 2019-02-21 12:10:43 --> Security Class Initialized
+DEBUG - 2019-02-21 12:10:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:10:43 --> Input Class Initialized
+INFO - 2019-02-21 12:10:43 --> Language Class Initialized
+INFO - 2019-02-21 12:10:43 --> Loader Class Initialized
+INFO - 2019-02-21 12:10:43 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:10:43 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:10:43 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:10:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:10:43 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:10:43 --> Email Class Initialized
+INFO - 2019-02-21 12:10:43 --> Controller Class Initialized
+DEBUG - 2019-02-21 12:10:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-02-21 12:10:43 --> Cart Class Initialized
+INFO - 2019-02-21 12:10:43 --> Model "Carrito_model" initialized
+INFO - 2019-02-21 12:10:43 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:10:44 --> Config Class Initialized
+INFO - 2019-02-21 12:10:44 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:10:44 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:10:44 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:10:44 --> URI Class Initialized
+INFO - 2019-02-21 12:10:44 --> Router Class Initialized
+INFO - 2019-02-21 12:10:44 --> Output Class Initialized
+INFO - 2019-02-21 12:10:44 --> Security Class Initialized
+DEBUG - 2019-02-21 12:10:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:10:44 --> Input Class Initialized
+INFO - 2019-02-21 12:10:44 --> Language Class Initialized
+INFO - 2019-02-21 12:10:44 --> Loader Class Initialized
+INFO - 2019-02-21 12:10:44 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:10:44 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:10:44 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:10:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:10:44 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:10:44 --> Email Class Initialized
+INFO - 2019-02-21 12:10:44 --> Controller Class Initialized
+DEBUG - 2019-02-21 12:10:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-02-21 12:10:44 --> Cart Class Initialized
+INFO - 2019-02-21 12:10:44 --> Model "Carrito_model" initialized
+INFO - 2019-02-21 12:10:44 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:10:44 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:10:44 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:10:44 --> File loaded: C:\xampp\htdocs\tienda\application\views\carrito.php
+INFO - 2019-02-21 12:10:44 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:10:44 --> Final output sent to browser
+DEBUG - 2019-02-21 12:10:44 --> Total execution time: 0.7938
+INFO - 2019-02-21 12:14:07 --> Config Class Initialized
+INFO - 2019-02-21 12:14:07 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:14:07 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:14:07 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:14:07 --> URI Class Initialized
+INFO - 2019-02-21 12:14:07 --> Router Class Initialized
+INFO - 2019-02-21 12:14:07 --> Output Class Initialized
+INFO - 2019-02-21 12:14:07 --> Security Class Initialized
+DEBUG - 2019-02-21 12:14:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:14:07 --> Input Class Initialized
+INFO - 2019-02-21 12:14:07 --> Language Class Initialized
+INFO - 2019-02-21 12:14:07 --> Loader Class Initialized
+INFO - 2019-02-21 12:14:07 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:14:07 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:14:08 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:14:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:14:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:14:08 --> Email Class Initialized
+INFO - 2019-02-21 12:14:08 --> Controller Class Initialized
+INFO - 2019-02-21 12:14:08 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 12:14:08 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 12:14:08 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:14:08 --> Form Validation Class Initialized
+INFO - 2019-02-21 12:14:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:14:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:14:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\modificarcontrasena.php
+INFO - 2019-02-21 12:14:08 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:14:08 --> Final output sent to browser
+DEBUG - 2019-02-21 12:14:08 --> Total execution time: 0.8281
+INFO - 2019-02-21 12:15:07 --> Config Class Initialized
+INFO - 2019-02-21 12:15:07 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:15:07 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:15:07 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:15:07 --> URI Class Initialized
+INFO - 2019-02-21 12:15:07 --> Router Class Initialized
+INFO - 2019-02-21 12:15:07 --> Output Class Initialized
+INFO - 2019-02-21 12:15:07 --> Security Class Initialized
+DEBUG - 2019-02-21 12:15:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:15:07 --> Input Class Initialized
+INFO - 2019-02-21 12:15:07 --> Language Class Initialized
+INFO - 2019-02-21 12:15:07 --> Loader Class Initialized
+INFO - 2019-02-21 12:15:07 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:15:07 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:15:07 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:15:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:15:07 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:15:07 --> Email Class Initialized
+INFO - 2019-02-21 12:15:07 --> Controller Class Initialized
+INFO - 2019-02-21 12:15:07 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 12:15:07 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 12:15:07 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:15:07 --> Form Validation Class Initialized
+INFO - 2019-02-21 12:15:07 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:15:07 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:15:07 --> File loaded: C:\xampp\htdocs\tienda\application\views\modificarcontrasena.php
+INFO - 2019-02-21 12:15:07 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:15:07 --> Final output sent to browser
+DEBUG - 2019-02-21 12:15:08 --> Total execution time: 0.9046
+INFO - 2019-02-21 12:15:16 --> Config Class Initialized
+INFO - 2019-02-21 12:15:16 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:15:16 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:15:16 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:15:16 --> URI Class Initialized
+INFO - 2019-02-21 12:15:16 --> Router Class Initialized
+INFO - 2019-02-21 12:15:16 --> Output Class Initialized
+INFO - 2019-02-21 12:15:16 --> Security Class Initialized
+DEBUG - 2019-02-21 12:15:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:15:16 --> Input Class Initialized
+INFO - 2019-02-21 12:15:16 --> Language Class Initialized
+INFO - 2019-02-21 12:15:16 --> Loader Class Initialized
+INFO - 2019-02-21 12:15:16 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:15:16 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:15:17 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:15:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:15:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:15:17 --> Email Class Initialized
+INFO - 2019-02-21 12:15:17 --> Controller Class Initialized
+INFO - 2019-02-21 12:15:17 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 12:15:17 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 12:15:17 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:15:17 --> Form Validation Class Initialized
+INFO - 2019-02-21 12:15:17 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-21 12:15:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:15:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:15:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\modificarcontrasena.php
+INFO - 2019-02-21 12:15:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:15:17 --> Final output sent to browser
+DEBUG - 2019-02-21 12:15:17 --> Total execution time: 0.9625
+INFO - 2019-02-21 12:17:16 --> Config Class Initialized
+INFO - 2019-02-21 12:17:16 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:17:17 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:17:17 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:17:17 --> URI Class Initialized
+INFO - 2019-02-21 12:17:17 --> Router Class Initialized
+INFO - 2019-02-21 12:17:17 --> Output Class Initialized
+INFO - 2019-02-21 12:17:17 --> Security Class Initialized
+DEBUG - 2019-02-21 12:17:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:17:17 --> Input Class Initialized
+INFO - 2019-02-21 12:17:17 --> Language Class Initialized
+INFO - 2019-02-21 12:17:17 --> Loader Class Initialized
+INFO - 2019-02-21 12:17:17 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:17:17 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:17:17 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:17:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:17:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:17:17 --> Email Class Initialized
+INFO - 2019-02-21 12:17:17 --> Controller Class Initialized
+INFO - 2019-02-21 12:17:17 --> Model "Usuario_model" initialized
+INFO - 2019-02-21 12:17:17 --> Model "Provincias_model" initialized
+INFO - 2019-02-21 12:17:17 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:17:17 --> Form Validation Class Initialized
+INFO - 2019-02-21 12:17:17 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-21 12:17:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:17:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:17:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\modificarcontrasena.php
+INFO - 2019-02-21 12:17:17 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:17:17 --> Final output sent to browser
+DEBUG - 2019-02-21 12:17:17 --> Total execution time: 0.9377
+INFO - 2019-02-21 12:17:21 --> Config Class Initialized
+INFO - 2019-02-21 12:17:21 --> Hooks Class Initialized
+DEBUG - 2019-02-21 12:17:21 --> UTF-8 Support Enabled
+INFO - 2019-02-21 12:17:21 --> Utf8 Class Initialized
+INFO - 2019-02-21 12:17:21 --> URI Class Initialized
+INFO - 2019-02-21 12:17:21 --> Router Class Initialized
+INFO - 2019-02-21 12:17:21 --> Output Class Initialized
+INFO - 2019-02-21 12:17:21 --> Security Class Initialized
+DEBUG - 2019-02-21 12:17:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-21 12:17:21 --> Input Class Initialized
+INFO - 2019-02-21 12:17:21 --> Language Class Initialized
+INFO - 2019-02-21 12:17:21 --> Loader Class Initialized
+INFO - 2019-02-21 12:17:21 --> Helper loaded: url_helper
+INFO - 2019-02-21 12:17:21 --> Helper loaded: form_helper
+INFO - 2019-02-21 12:17:21 --> Database Driver Class Initialized
+DEBUG - 2019-02-21 12:17:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-21 12:17:21 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-21 12:17:21 --> Email Class Initialized
+INFO - 2019-02-21 12:17:21 --> Controller Class Initialized
+INFO - 2019-02-21 12:17:21 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-21 12:17:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-21 12:17:21 --> Pagination Class Initialized
+INFO - 2019-02-21 12:17:21 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-21 12:17:21 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-21 12:17:21 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-21 12:17:21 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-21 12:17:21 --> Final output sent to browser
+DEBUG - 2019-02-21 12:17:21 --> Total execution time: 0.7538
+

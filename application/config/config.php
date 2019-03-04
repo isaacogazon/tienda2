@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/tienda/';
-//$config['base_url'] = 'https://www.ieslamarisma.net/proyectos/2019/isaacogazon/tienda/';
+/*$config['base_url'] = 'https://www.ieslamarisma.net/proyectos/2019/isaacogazon/tienda/';*/
 
 /*
 |--------------------------------------------------------------------------

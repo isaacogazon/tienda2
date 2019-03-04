@@ -40,12 +40,14 @@
                     <div class="navbar-custom-menu">
                         <ul class="nav navbar-nav">
                             <!-- User Account: style can be found in dropdown.less -->
-                            <a href="<?php echo site_url();?>/carrito" class="btn btn-info btn-lg">
+                            <a href="<?php echo site_url(); ?>/carrito" class="btn btn-info btn-lg">
                                 <span class="glyphicon glyphicon-shopping-cart"></span>
                             </a>
                             <li class="dropdown user user-menu">
                                 <a href="" class="dropdown-toggle" data-toggle="dropdown">
-                                    <img src="<?php echo base_url() ?>assets/template/dist/img/avatar5.png" class="user-image" alt="User Image">
+                                    <?php if ($this->session->userdata('login')) { ?>
+                                        <img src="<?php echo base_url() ?>assets/template/dist/img/avatar5.png" class="user-image" alt="User Image">
+                                    <?php } ?>
                                     <span class="hidden-xs"><?php
                                         if ($this->session->userdata('login')) {
                                             echo ($this->session->userdata('nombre'));

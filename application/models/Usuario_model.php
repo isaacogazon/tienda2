@@ -50,12 +50,12 @@ class Usuario_model extends CI_Model {
         }
     }
 
-    public function cambiacontraseña($contraseña) {
+    public function cambiacontraseña($contraseña, $id) {
         $contra = array(
             'contraseña' => $contraseña
         );
-
-        $this->db->where("nombre", $this->session->userdata('nombre'));
+        echo($id);
+        $this->db->where("id", $id);
         $this->db->update('clientes', $contra);
     }
 
@@ -65,6 +65,14 @@ class Usuario_model extends CI_Model {
         $reg = $rs->row();
 
         return $reg->correo;
+    }
+    
+    public function dameID($correo) {
+        $rs = $this->db->query("select id from clientes where correo='".$correo."'");
+
+        $reg = $rs->row();
+
+        return $reg->id;
     }
 
     public function datos() {

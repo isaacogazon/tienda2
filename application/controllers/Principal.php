@@ -16,7 +16,7 @@ class Principal extends CI_Controller {
          * */
         $this->load->library('pagination');
 
-        $config['base_url'] = site_url('index.php/principal/index');
+        $config['base_url'] = site_url('principal/index');
         $config['total_rows'] = $this->listadoproductos_model->num_productos();
         $config['per_page'] = 6;
         //$config['uri_segment'] = 3;

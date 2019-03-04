@@ -134,16 +134,15 @@ class Auth extends CI_Controller {
         redirect(site_url() . '/principal');
     }
 
-    public function modificar() {
-
-        $this->form_validation->set_rules('correo', 'Correo', 'required|valid_email', array(
+    public function modificar($id) {
+        /*$this->form_validation->set_rules('correo', 'Correo', 'required|valid_email', array(
             'required' => '<p class="text-danger">Es obligatorio el campo %s.',
             'valid_email' => '<p class="text-danger">El formato del %s no es correcto.'
-        ));
+        ));*/
 
-        $this->form_validation->set_rules('contraseña', 'Contraseña', 'required', array(
-            'required' => '<p class="text-danger">Es obligatorio el campo %s.'
-        ));
+        /* $this->form_validation->set_rules('contraseña', 'Contraseña', 'required', array(
+          'required' => '<p class="text-danger">Es obligatorio el campo %s.'
+          )); */
 
         $this->form_validation->set_rules('contraseñanueva', 'Contraseña', 'required', array(
             'required' => '<p class="text-danger">Es obligatorio el campo %s.'
@@ -156,8 +155,8 @@ class Auth extends CI_Controller {
 
         $ponercorreo = $this->usuario_model->dameCorreo();
 
-        $correo = $this->input->post("correo");
-        $contraseña = md5($this->input->post("contraseña"));
+        $correo = $this->input->post("correo");//por aqui le paso el correo que previamente lo busco por el id que recibo
+        //$contraseña = md5($this->input->post("contraseña"));
         $contraseñanueva = md5($this->input->post("contraseñanueva"));
         $confirmacontraseña = md5($this->input->post("confirmacontrasena"));
 
@@ -169,12 +168,12 @@ class Auth extends CI_Controller {
 
             $this->load->view('layouts/header');
             $this->load->view('layouts/aside', $categorias);
-            $this->load->view('modificarcontrasena', ['ponercorreo' => $ponercorreo]);
+            $this->load->view('modificarcontrasena', ['ponercorreo' => $ponercorreo, 'id' => $id]);
             $this->load->view('layouts/footer');
         } else {
-            if ($contraseñanueva == $confirmacontraseña && $this->usuario_model->compruebacontraseña($correo, $contraseña)) {
+            if ($contraseñanueva == $confirmacontraseña /* && $this->usuario_model->compruebacontraseña($correo, $contraseña) */) {
 
-                $this->usuario_model->cambiacontraseña($contraseñanueva);
+                $this->usuario_model->cambiacontraseña($contraseñanueva, $id);
                 redirect(site_url() . '/principal');
             } else {
                 $categorias = array(
@@ -183,7 +182,7 @@ class Auth extends CI_Controller {
 
                 $this->load->view('layouts/header');
                 $this->load->view('layouts/aside', $categorias);
-                $this->load->view('modificarcontrasena', ['ponercorreo' => $ponercorreo]);
+                $this->load->view('modificarcontrasena', ['ponercorreo' => $ponercorreo, 'id' => $id]);
                 $this->load->view('layouts/footer');
             }
         }
@@ -280,16 +279,16 @@ class Auth extends CI_Controller {
         session_destroy();
         redirect(site_url() . '/principal');
     }
-    
-       public function recordar() {
+
+    public function recordar() {
 
         $this->form_validation->set_rules('correo', 'Correo', 'required|valid_email', array(
             'required' => '<p class="text-danger">Es obligatorio el campo %s.',
             'valid_email' => '<p class="text-danger">El formato del %s no es correcto.'
         ));
-       // if ($this->session->userdata('login')) {
-            $ponercorreo = $this->usuario_model->dameCorreo();
-        //}
+         if ($this->session->userdata('login')) {
+        $ponercorreo = $this->usuario_model->dameCorreo();
+        }
 
         $correo = $this->input->post("correo");
 
@@ -298,10 +297,16 @@ class Auth extends CI_Controller {
             $categorias = array(
                 'categorias' => $this->listadoproductos_model->getCategorias()
             );
+            
 
             $this->load->view('layouts/header');
             $this->load->view('layouts/aside', $categorias);
-            $this->load->view('recordarcontrasena' , ['ponercorreo' => $ponercorreo] );
+             if ($this->session->userdata('login')) {
+                 $this->load->view('recordarcontrasena', ['ponercorreo' => $ponercorreo]);
+            }else{
+                $this->load->view('recordarcontrasena');
+            }
+            
             $this->load->view('layouts/footer');
         } else {
             $categorias = array(
@@ -313,7 +318,8 @@ class Auth extends CI_Controller {
             //$this->email->cc('otro@otro-ejemplo.com');
             //$this->email->bcc('ellos@su-ejemplo.com');
             $this->email->subject('Recordatorio contraseña');
-            $this->email->message('Probando la Clase Email.');
+            $this->email->message('<h4>Pulsa en el botón recordar para modificar la contraseña</h4>'
+                    . '<a href="' . site_url() . '/auth/modificar/' . $this->usuario_model->dameID($this->input->post("correo")) . '"> Modificar</a>');
             $this->email->send();
             //echo $this->email->print_debugger();
 

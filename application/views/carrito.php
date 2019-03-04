@@ -26,13 +26,14 @@
                                 <td><?php
                                     echo form_hidden($i . '[rowid]', $items['rowid']);
                                     echo form_input(array(
+                                        'class' => 'cantidad',
                                         'name' => $i . '[qty]',
                                         'value' => $items['qty'],
                                         'maxlength' => '3',
                                         'size' => '5'));
                                     ?>
                                 </td>
-                                <td>
+                                <td id="nombre">
                                     <?php echo $items['name']; ?>
                                     <?php if ($this->cart->has_options($items['rowid']) == TRUE): ?>
                                         <p>
@@ -44,7 +45,7 @@
                                         </p>
                                     <?php endif; ?>
                                 </td>
-                                <td style="text-align:right">
+                                <td class="precio" style="text-align:right">
                                     <?php echo $this->cart->format_number($items['price']); ?>€
                                 </td>
                                 <td style="text-align:right">
@@ -56,7 +57,7 @@
                         <tr>
                             <td><!--<button type="submit">Actualizar el carrito</button>-->
                                 <div class="col-xs-3">
-                                    <a href="<?php echo site_url('carrito/actualizarCarrito')?>">
+                                    <a href="<?php echo site_url('carrito/actualizarCarrito') ?>">
                                         <input type="submit"  value="Actualizar carrito" class="btn btn-primary btn-block btn-flat">
                                     </a>
                                 </div>
@@ -77,7 +78,13 @@
                             </td>
                         </tr>
                     </table>
+                    <div class="col-xs-3">
+                        <a href="<?php echo site_url('carrito/procesar') ?>">
+                            <input type="button"  value="Procesar compra" class="btn btn-primary btn-block btn-flat">
+                        </a>
+                    </div>
                 </form>
+
             </div>
         </div>
     </section>

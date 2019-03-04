@@ -1,0 +1,506 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+INFO - 2019-02-25 13:23:22 --> Config Class Initialized
+INFO - 2019-02-25 13:23:22 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:23:23 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:23:23 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:23:23 --> URI Class Initialized
+DEBUG - 2019-02-25 13:23:23 --> No URI present. Default controller set.
+INFO - 2019-02-25 13:23:23 --> Router Class Initialized
+INFO - 2019-02-25 13:23:23 --> Output Class Initialized
+INFO - 2019-02-25 13:23:23 --> Security Class Initialized
+DEBUG - 2019-02-25 13:23:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:23:23 --> Input Class Initialized
+INFO - 2019-02-25 13:23:23 --> Language Class Initialized
+INFO - 2019-02-25 13:23:23 --> Loader Class Initialized
+INFO - 2019-02-25 13:23:23 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:23:23 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:23:24 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:23:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:23:24 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:23:24 --> Email Class Initialized
+INFO - 2019-02-25 13:23:24 --> Controller Class Initialized
+INFO - 2019-02-25 13:23:24 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:23:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-02-25 13:23:24 --> Pagination Class Initialized
+INFO - 2019-02-25 13:23:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:23:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-25 13:23:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-02-25 13:23:24 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:23:24 --> Final output sent to browser
+DEBUG - 2019-02-25 13:23:24 --> Total execution time: 2.0740
+INFO - 2019-02-25 13:23:37 --> Config Class Initialized
+INFO - 2019-02-25 13:23:37 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:23:37 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:23:37 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:23:37 --> URI Class Initialized
+INFO - 2019-02-25 13:23:37 --> Router Class Initialized
+INFO - 2019-02-25 13:23:37 --> Output Class Initialized
+INFO - 2019-02-25 13:23:37 --> Security Class Initialized
+DEBUG - 2019-02-25 13:23:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:23:37 --> Input Class Initialized
+INFO - 2019-02-25 13:23:37 --> Language Class Initialized
+INFO - 2019-02-25 13:23:37 --> Loader Class Initialized
+INFO - 2019-02-25 13:23:37 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:23:37 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:23:37 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:23:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:23:37 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:23:37 --> Email Class Initialized
+INFO - 2019-02-25 13:23:37 --> Controller Class Initialized
+INFO - 2019-02-25 13:23:37 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:23:37 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:23:37 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-25 13:23:37 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-25 13:23:37 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:23:37 --> Final output sent to browser
+DEBUG - 2019-02-25 13:23:37 --> Total execution time: 0.6193
+INFO - 2019-02-25 13:23:39 --> Config Class Initialized
+INFO - 2019-02-25 13:23:39 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:23:39 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:23:39 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:23:39 --> URI Class Initialized
+INFO - 2019-02-25 13:23:39 --> Router Class Initialized
+INFO - 2019-02-25 13:23:39 --> Output Class Initialized
+INFO - 2019-02-25 13:23:39 --> Security Class Initialized
+DEBUG - 2019-02-25 13:23:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:23:39 --> Input Class Initialized
+INFO - 2019-02-25 13:23:39 --> Language Class Initialized
+INFO - 2019-02-25 13:23:40 --> Loader Class Initialized
+INFO - 2019-02-25 13:23:40 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:23:40 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:23:40 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:23:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:23:40 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:23:40 --> Email Class Initialized
+INFO - 2019-02-25 13:23:40 --> Controller Class Initialized
+INFO - 2019-02-25 13:23:40 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:23:40 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:23:40 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:23:40 --> Form Validation Class Initialized
+ERROR - 2019-02-25 13:23:40 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-25 13:23:40 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-25 13:23:45 --> Config Class Initialized
+INFO - 2019-02-25 13:23:45 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:23:45 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:23:45 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:23:45 --> URI Class Initialized
+INFO - 2019-02-25 13:23:45 --> Router Class Initialized
+INFO - 2019-02-25 13:23:45 --> Output Class Initialized
+INFO - 2019-02-25 13:23:45 --> Security Class Initialized
+DEBUG - 2019-02-25 13:23:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:23:45 --> Input Class Initialized
+INFO - 2019-02-25 13:23:45 --> Language Class Initialized
+INFO - 2019-02-25 13:23:45 --> Loader Class Initialized
+INFO - 2019-02-25 13:23:45 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:23:45 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:23:46 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:23:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:23:46 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:23:46 --> Email Class Initialized
+INFO - 2019-02-25 13:23:46 --> Controller Class Initialized
+INFO - 2019-02-25 13:23:46 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:23:46 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:23:46 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-25 13:23:46 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-25 13:23:46 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:23:46 --> Final output sent to browser
+DEBUG - 2019-02-25 13:23:46 --> Total execution time: 0.6017
+INFO - 2019-02-25 13:23:55 --> Config Class Initialized
+INFO - 2019-02-25 13:23:55 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:23:55 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:23:55 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:23:55 --> URI Class Initialized
+INFO - 2019-02-25 13:23:55 --> Router Class Initialized
+INFO - 2019-02-25 13:23:55 --> Output Class Initialized
+INFO - 2019-02-25 13:23:55 --> Security Class Initialized
+DEBUG - 2019-02-25 13:23:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:23:55 --> Input Class Initialized
+INFO - 2019-02-25 13:23:55 --> Language Class Initialized
+INFO - 2019-02-25 13:23:55 --> Loader Class Initialized
+INFO - 2019-02-25 13:23:55 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:23:55 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:23:55 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:23:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:23:55 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:23:55 --> Email Class Initialized
+INFO - 2019-02-25 13:23:55 --> Controller Class Initialized
+INFO - 2019-02-25 13:23:55 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:23:55 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:23:55 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:23:55 --> Form Validation Class Initialized
+ERROR - 2019-02-25 13:23:55 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-25 13:23:55 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-25 13:25:07 --> Config Class Initialized
+INFO - 2019-02-25 13:25:07 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:25:07 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:25:07 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:25:07 --> URI Class Initialized
+INFO - 2019-02-25 13:25:07 --> Router Class Initialized
+INFO - 2019-02-25 13:25:07 --> Output Class Initialized
+INFO - 2019-02-25 13:25:07 --> Security Class Initialized
+DEBUG - 2019-02-25 13:25:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:25:07 --> Input Class Initialized
+INFO - 2019-02-25 13:25:07 --> Language Class Initialized
+INFO - 2019-02-25 13:25:07 --> Loader Class Initialized
+INFO - 2019-02-25 13:25:07 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:25:07 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:25:07 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:25:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:25:07 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:25:07 --> Email Class Initialized
+INFO - 2019-02-25 13:25:07 --> Controller Class Initialized
+INFO - 2019-02-25 13:25:08 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:25:08 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:25:08 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:25:08 --> Form Validation Class Initialized
+ERROR - 2019-02-25 13:25:08 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-25 13:25:08 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-25 13:28:14 --> Config Class Initialized
+INFO - 2019-02-25 13:28:14 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:28:14 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:28:14 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:28:14 --> URI Class Initialized
+INFO - 2019-02-25 13:28:14 --> Router Class Initialized
+INFO - 2019-02-25 13:28:14 --> Output Class Initialized
+INFO - 2019-02-25 13:28:14 --> Security Class Initialized
+DEBUG - 2019-02-25 13:28:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:28:14 --> Input Class Initialized
+INFO - 2019-02-25 13:28:14 --> Language Class Initialized
+INFO - 2019-02-25 13:28:14 --> Loader Class Initialized
+INFO - 2019-02-25 13:28:14 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:28:14 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:28:14 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:28:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:28:14 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:28:14 --> Email Class Initialized
+INFO - 2019-02-25 13:28:14 --> Controller Class Initialized
+INFO - 2019-02-25 13:28:15 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:28:15 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:28:15 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:28:15 --> Form Validation Class Initialized
+ERROR - 2019-02-25 13:28:15 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-25 13:28:15 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-25 13:28:16 --> Config Class Initialized
+INFO - 2019-02-25 13:28:16 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:28:16 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:28:16 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:28:16 --> URI Class Initialized
+INFO - 2019-02-25 13:28:16 --> Router Class Initialized
+INFO - 2019-02-25 13:28:16 --> Output Class Initialized
+INFO - 2019-02-25 13:28:16 --> Security Class Initialized
+DEBUG - 2019-02-25 13:28:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:28:16 --> Input Class Initialized
+INFO - 2019-02-25 13:28:16 --> Language Class Initialized
+INFO - 2019-02-25 13:28:16 --> Loader Class Initialized
+INFO - 2019-02-25 13:28:16 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:28:16 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:28:16 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:28:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:28:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:28:17 --> Email Class Initialized
+INFO - 2019-02-25 13:28:17 --> Controller Class Initialized
+INFO - 2019-02-25 13:28:17 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:28:17 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:28:17 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:28:17 --> Form Validation Class Initialized
+ERROR - 2019-02-25 13:28:17 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-25 13:28:17 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-25 13:28:18 --> Config Class Initialized
+INFO - 2019-02-25 13:28:18 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:28:18 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:28:18 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:28:18 --> URI Class Initialized
+INFO - 2019-02-25 13:28:18 --> Router Class Initialized
+INFO - 2019-02-25 13:28:18 --> Output Class Initialized
+INFO - 2019-02-25 13:28:18 --> Security Class Initialized
+DEBUG - 2019-02-25 13:28:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:28:18 --> Input Class Initialized
+INFO - 2019-02-25 13:28:18 --> Language Class Initialized
+INFO - 2019-02-25 13:28:18 --> Loader Class Initialized
+INFO - 2019-02-25 13:28:18 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:28:18 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:28:18 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:28:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:28:19 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:28:19 --> Email Class Initialized
+INFO - 2019-02-25 13:28:19 --> Controller Class Initialized
+INFO - 2019-02-25 13:28:19 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:28:19 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:28:19 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:28:19 --> Form Validation Class Initialized
+ERROR - 2019-02-25 13:28:19 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-25 13:28:19 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-25 13:28:20 --> Config Class Initialized
+INFO - 2019-02-25 13:28:20 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:28:20 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:28:20 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:28:20 --> URI Class Initialized
+INFO - 2019-02-25 13:28:20 --> Router Class Initialized
+INFO - 2019-02-25 13:28:20 --> Output Class Initialized
+INFO - 2019-02-25 13:28:20 --> Security Class Initialized
+DEBUG - 2019-02-25 13:28:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:28:20 --> Input Class Initialized
+INFO - 2019-02-25 13:28:20 --> Language Class Initialized
+INFO - 2019-02-25 13:28:20 --> Loader Class Initialized
+INFO - 2019-02-25 13:28:20 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:28:20 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:28:20 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:28:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:28:21 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:28:21 --> Email Class Initialized
+INFO - 2019-02-25 13:28:21 --> Controller Class Initialized
+INFO - 2019-02-25 13:28:21 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:28:21 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:28:21 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-25 13:28:21 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-25 13:28:21 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:28:21 --> Final output sent to browser
+DEBUG - 2019-02-25 13:28:21 --> Total execution time: 0.9687
+INFO - 2019-02-25 13:28:59 --> Config Class Initialized
+INFO - 2019-02-25 13:29:00 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:29:00 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:29:00 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:29:00 --> URI Class Initialized
+INFO - 2019-02-25 13:29:00 --> Router Class Initialized
+INFO - 2019-02-25 13:29:00 --> Output Class Initialized
+INFO - 2019-02-25 13:29:00 --> Security Class Initialized
+DEBUG - 2019-02-25 13:29:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:29:00 --> Input Class Initialized
+INFO - 2019-02-25 13:29:00 --> Language Class Initialized
+INFO - 2019-02-25 13:29:00 --> Loader Class Initialized
+INFO - 2019-02-25 13:29:00 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:29:00 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:29:00 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:29:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:29:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:29:00 --> Email Class Initialized
+INFO - 2019-02-25 13:29:00 --> Controller Class Initialized
+INFO - 2019-02-25 13:29:00 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:29:00 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:29:00 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:29:00 --> Form Validation Class Initialized
+ERROR - 2019-02-25 13:29:00 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-25 13:29:00 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-25 13:29:59 --> Config Class Initialized
+INFO - 2019-02-25 13:29:59 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:29:59 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:29:59 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:29:59 --> URI Class Initialized
+INFO - 2019-02-25 13:29:59 --> Router Class Initialized
+INFO - 2019-02-25 13:29:59 --> Output Class Initialized
+INFO - 2019-02-25 13:29:59 --> Security Class Initialized
+DEBUG - 2019-02-25 13:29:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:29:59 --> Input Class Initialized
+INFO - 2019-02-25 13:29:59 --> Language Class Initialized
+INFO - 2019-02-25 13:29:59 --> Loader Class Initialized
+INFO - 2019-02-25 13:29:59 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:29:59 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:29:59 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:29:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:29:59 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:29:59 --> Email Class Initialized
+INFO - 2019-02-25 13:30:00 --> Controller Class Initialized
+INFO - 2019-02-25 13:30:00 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:30:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:30:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-25 13:30:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-25 13:30:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:30:00 --> Final output sent to browser
+DEBUG - 2019-02-25 13:30:00 --> Total execution time: 0.7078
+INFO - 2019-02-25 13:30:01 --> Config Class Initialized
+INFO - 2019-02-25 13:30:01 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:30:01 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:30:01 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:30:01 --> URI Class Initialized
+INFO - 2019-02-25 13:30:01 --> Router Class Initialized
+INFO - 2019-02-25 13:30:01 --> Output Class Initialized
+INFO - 2019-02-25 13:30:01 --> Security Class Initialized
+DEBUG - 2019-02-25 13:30:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:30:01 --> Input Class Initialized
+INFO - 2019-02-25 13:30:01 --> Language Class Initialized
+INFO - 2019-02-25 13:30:01 --> Loader Class Initialized
+INFO - 2019-02-25 13:30:02 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:30:02 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:30:02 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:30:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:30:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:30:02 --> Email Class Initialized
+INFO - 2019-02-25 13:30:02 --> Controller Class Initialized
+INFO - 2019-02-25 13:30:02 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:30:02 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:30:02 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:30:02 --> Form Validation Class Initialized
+INFO - 2019-02-25 13:30:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:30:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+ERROR - 2019-02-25 13:30:02 --> Severity: Notice --> Undefined variable: ponercorreo C:\xampp\htdocs\tienda\application\controllers\Auth.php 304
+INFO - 2019-02-25 13:30:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-25 13:30:02 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:30:02 --> Final output sent to browser
+DEBUG - 2019-02-25 13:30:02 --> Total execution time: 0.7252
+INFO - 2019-02-25 13:30:59 --> Config Class Initialized
+INFO - 2019-02-25 13:30:59 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:30:59 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:30:59 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:30:59 --> URI Class Initialized
+INFO - 2019-02-25 13:30:59 --> Router Class Initialized
+INFO - 2019-02-25 13:30:59 --> Output Class Initialized
+INFO - 2019-02-25 13:30:59 --> Security Class Initialized
+DEBUG - 2019-02-25 13:30:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:31:00 --> Input Class Initialized
+INFO - 2019-02-25 13:31:00 --> Language Class Initialized
+INFO - 2019-02-25 13:31:00 --> Loader Class Initialized
+INFO - 2019-02-25 13:31:00 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:31:00 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:31:00 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:31:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:31:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:31:00 --> Email Class Initialized
+INFO - 2019-02-25 13:31:00 --> Controller Class Initialized
+INFO - 2019-02-25 13:31:00 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:31:00 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:31:00 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:31:00 --> Form Validation Class Initialized
+INFO - 2019-02-25 13:31:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:31:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-25 13:31:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-25 13:31:00 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:31:00 --> Final output sent to browser
+DEBUG - 2019-02-25 13:31:00 --> Total execution time: 1.0382
+INFO - 2019-02-25 13:31:09 --> Config Class Initialized
+INFO - 2019-02-25 13:31:09 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:31:09 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:31:09 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:31:09 --> URI Class Initialized
+INFO - 2019-02-25 13:31:09 --> Router Class Initialized
+INFO - 2019-02-25 13:31:09 --> Output Class Initialized
+INFO - 2019-02-25 13:31:09 --> Security Class Initialized
+DEBUG - 2019-02-25 13:31:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:31:09 --> Input Class Initialized
+INFO - 2019-02-25 13:31:09 --> Language Class Initialized
+INFO - 2019-02-25 13:31:09 --> Loader Class Initialized
+INFO - 2019-02-25 13:31:09 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:31:09 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:31:09 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:31:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:31:10 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:31:10 --> Email Class Initialized
+INFO - 2019-02-25 13:31:10 --> Controller Class Initialized
+INFO - 2019-02-25 13:31:10 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:31:10 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:31:10 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-25 13:31:10 --> File loaded: C:\xampp\htdocs\tienda\application\views\login.php
+INFO - 2019-02-25 13:31:10 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:31:10 --> Final output sent to browser
+DEBUG - 2019-02-25 13:31:10 --> Total execution time: 0.8559
+INFO - 2019-02-25 13:31:12 --> Config Class Initialized
+INFO - 2019-02-25 13:31:12 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:31:12 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:31:12 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:31:12 --> URI Class Initialized
+INFO - 2019-02-25 13:31:12 --> Router Class Initialized
+INFO - 2019-02-25 13:31:12 --> Output Class Initialized
+INFO - 2019-02-25 13:31:12 --> Security Class Initialized
+DEBUG - 2019-02-25 13:31:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:31:12 --> Input Class Initialized
+INFO - 2019-02-25 13:31:12 --> Language Class Initialized
+INFO - 2019-02-25 13:31:12 --> Loader Class Initialized
+INFO - 2019-02-25 13:31:12 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:31:12 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:31:12 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:31:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:31:12 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:31:12 --> Email Class Initialized
+INFO - 2019-02-25 13:31:12 --> Controller Class Initialized
+INFO - 2019-02-25 13:31:12 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:31:12 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:31:12 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:31:12 --> Form Validation Class Initialized
+INFO - 2019-02-25 13:31:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:31:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-25 13:31:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-25 13:31:13 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:31:13 --> Final output sent to browser
+DEBUG - 2019-02-25 13:31:13 --> Total execution time: 1.0590
+INFO - 2019-02-25 13:31:16 --> Config Class Initialized
+INFO - 2019-02-25 13:31:16 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:31:16 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:31:16 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:31:16 --> URI Class Initialized
+INFO - 2019-02-25 13:31:16 --> Router Class Initialized
+INFO - 2019-02-25 13:31:16 --> Output Class Initialized
+INFO - 2019-02-25 13:31:16 --> Security Class Initialized
+DEBUG - 2019-02-25 13:31:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:31:16 --> Input Class Initialized
+INFO - 2019-02-25 13:31:16 --> Language Class Initialized
+INFO - 2019-02-25 13:31:16 --> Loader Class Initialized
+INFO - 2019-02-25 13:31:17 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:31:17 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:31:17 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:31:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:31:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:31:17 --> Email Class Initialized
+INFO - 2019-02-25 13:31:17 --> Controller Class Initialized
+INFO - 2019-02-25 13:31:17 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:31:17 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:31:17 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:31:17 --> Form Validation Class Initialized
+INFO - 2019-02-25 13:31:17 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-02-25 13:31:17 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-02-25 13:31:18 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-02-25 13:31:18 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-02-25 13:31:18 --> File loaded: C:\xampp\htdocs\tienda\application\views\recordarcontrasena.php
+INFO - 2019-02-25 13:31:18 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-02-25 13:31:18 --> Final output sent to browser
+DEBUG - 2019-02-25 13:31:19 --> Total execution time: 2.2902
+INFO - 2019-02-25 13:32:04 --> Config Class Initialized
+INFO - 2019-02-25 13:32:04 --> Hooks Class Initialized
+DEBUG - 2019-02-25 13:32:04 --> UTF-8 Support Enabled
+INFO - 2019-02-25 13:32:04 --> Utf8 Class Initialized
+INFO - 2019-02-25 13:32:04 --> URI Class Initialized
+INFO - 2019-02-25 13:32:04 --> Router Class Initialized
+INFO - 2019-02-25 13:32:04 --> Output Class Initialized
+INFO - 2019-02-25 13:32:04 --> Security Class Initialized
+DEBUG - 2019-02-25 13:32:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 13:32:04 --> Input Class Initialized
+INFO - 2019-02-25 13:32:04 --> Language Class Initialized
+INFO - 2019-02-25 13:32:04 --> Loader Class Initialized
+INFO - 2019-02-25 13:32:04 --> Helper loaded: url_helper
+INFO - 2019-02-25 13:32:04 --> Helper loaded: form_helper
+INFO - 2019-02-25 13:32:04 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 13:32:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 13:32:04 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 13:32:04 --> Email Class Initialized
+INFO - 2019-02-25 13:32:04 --> Controller Class Initialized
+INFO - 2019-02-25 13:32:04 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 13:32:04 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 13:32:04 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 13:32:04 --> Form Validation Class Initialized
+ERROR - 2019-02-25 13:32:04 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-25 13:32:04 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-02-25 14:23:16 --> Config Class Initialized
+INFO - 2019-02-25 14:23:16 --> Hooks Class Initialized
+DEBUG - 2019-02-25 14:23:16 --> UTF-8 Support Enabled
+INFO - 2019-02-25 14:23:16 --> Utf8 Class Initialized
+INFO - 2019-02-25 14:23:16 --> URI Class Initialized
+INFO - 2019-02-25 14:23:16 --> Router Class Initialized
+INFO - 2019-02-25 14:23:16 --> Output Class Initialized
+INFO - 2019-02-25 14:23:16 --> Security Class Initialized
+DEBUG - 2019-02-25 14:23:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-25 14:23:16 --> Input Class Initialized
+INFO - 2019-02-25 14:23:16 --> Language Class Initialized
+INFO - 2019-02-25 14:23:16 --> Loader Class Initialized
+INFO - 2019-02-25 14:23:16 --> Helper loaded: url_helper
+INFO - 2019-02-25 14:23:16 --> Helper loaded: form_helper
+INFO - 2019-02-25 14:23:16 --> Database Driver Class Initialized
+DEBUG - 2019-02-25 14:23:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-02-25 14:23:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-02-25 14:23:16 --> Email Class Initialized
+INFO - 2019-02-25 14:23:16 --> Controller Class Initialized
+INFO - 2019-02-25 14:23:16 --> Model "Usuario_model" initialized
+INFO - 2019-02-25 14:23:16 --> Model "Provincias_model" initialized
+INFO - 2019-02-25 14:23:17 --> Model "Listadoproductos_model" initialized
+INFO - 2019-02-25 14:23:17 --> Form Validation Class Initialized
+ERROR - 2019-02-25 14:23:17 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: select correo from clientes where id=
+INFO - 2019-02-25 14:23:17 --> Language file loaded: language/english/db_lang.php
+

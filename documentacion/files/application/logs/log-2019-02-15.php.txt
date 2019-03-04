@@ -1,0 +1,22 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+INFO - 2019-02-15 09:59:30 --> Config Class Initialized
+INFO - 2019-02-15 09:59:30 --> Hooks Class Initialized
+DEBUG - 2019-02-15 09:59:30 --> UTF-8 Support Enabled
+INFO - 2019-02-15 09:59:30 --> Utf8 Class Initialized
+INFO - 2019-02-15 09:59:30 --> URI Class Initialized
+DEBUG - 2019-02-15 09:59:30 --> No URI present. Default controller set.
+INFO - 2019-02-15 09:59:30 --> Router Class Initialized
+INFO - 2019-02-15 09:59:30 --> Output Class Initialized
+INFO - 2019-02-15 09:59:30 --> Security Class Initialized
+DEBUG - 2019-02-15 09:59:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-02-15 09:59:30 --> Input Class Initialized
+INFO - 2019-02-15 09:59:30 --> Language Class Initialized
+INFO - 2019-02-15 09:59:30 --> Loader Class Initialized
+INFO - 2019-02-15 09:59:30 --> Helper loaded: url_helper
+INFO - 2019-02-15 09:59:30 --> Helper loaded: form_helper
+INFO - 2019-02-15 09:59:30 --> Database Driver Class Initialized
+ERROR - 2019-02-15 09:59:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'isaacogazon'@'localhost' (using password: YES) C:\xampp\htdocs\tienda\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2019-02-15 09:59:30 --> Unable to connect to the database
+INFO - 2019-02-15 09:59:30 --> Language file loaded: language/english/db_lang.php
+

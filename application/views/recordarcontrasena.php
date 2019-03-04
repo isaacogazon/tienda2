@@ -21,7 +21,7 @@
                     <!-- /.login-logo -->
                     <div class="login-box-body">
                         <p class="login-box-msg">Introduzca su correo para recordar la contraseña</p>
-                        <form action="<?php echo site_url(); ?>/auth/recordar" method="post">
+                        <form action="<?php echo site_url('/auth/recordar/'); ?>" method="post">
                             <div class="form-group has-feedback">
                                 <!--if ($this->session->userdata('login')) {
                                             echo ($this->session->userdata('nombre'));

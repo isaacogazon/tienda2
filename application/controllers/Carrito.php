@@ -63,12 +63,16 @@ class Carrito extends CI_Controller {
         $this->load->view('carrito');
         $this->load->view('layouts/footer');
     }
-    
+    /**
+     * Destruye el carrito
+     */
     public function vaciarCarrito(){
         $this->cart->destroy();
         redirect('carrito');
     }
-    
+    /**
+     * Funcion que altualiza el carrito
+     */
     public function actualizarCarrito(){
         $data = $this->input->post();
         $this->cart->update($data);
@@ -82,6 +86,23 @@ class Carrito extends CI_Controller {
         $this->load->view('layouts/aside', $categorias);
         $this->load->view('carrito');
         $this->load->view('layouts/footer');
+    }
+    /**
+     * Funcion para procesar el pedido de compra.
+     */
+    public function procesar() {
+        $categorias = array(
+            'categorias' => $this->listadoproductos_model->getCategorias()
+        );
+        
+        $this->load->view('layouts/header');
+        $this->load->view('layouts/aside', $categorias);
+        $this->load->view('mostrarcompra');
+        $this->load->view('layouts/footer');
+    }
+    
+    public function realizarcompra(){
+        $this->carrito_model->crearventa();
     }
 
 }

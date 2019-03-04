@@ -1,0 +1,51 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+INFO - 2019-03-04 09:04:29 --> Config Class Initialized
+INFO - 2019-03-04 09:04:29 --> Hooks Class Initialized
+DEBUG - 2019-03-04 09:04:30 --> UTF-8 Support Enabled
+INFO - 2019-03-04 09:04:30 --> Utf8 Class Initialized
+INFO - 2019-03-04 09:04:30 --> URI Class Initialized
+DEBUG - 2019-03-04 09:04:30 --> No URI present. Default controller set.
+INFO - 2019-03-04 09:04:30 --> Router Class Initialized
+INFO - 2019-03-04 09:04:30 --> Output Class Initialized
+INFO - 2019-03-04 09:04:30 --> Security Class Initialized
+DEBUG - 2019-03-04 09:04:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-04 09:04:30 --> Input Class Initialized
+INFO - 2019-03-04 09:04:30 --> Language Class Initialized
+INFO - 2019-03-04 09:04:30 --> Loader Class Initialized
+INFO - 2019-03-04 09:04:30 --> Helper loaded: url_helper
+INFO - 2019-03-04 09:04:31 --> Helper loaded: form_helper
+INFO - 2019-03-04 09:04:31 --> Database Driver Class Initialized
+DEBUG - 2019-03-04 09:04:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-04 09:04:31 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-04 09:04:31 --> Email Class Initialized
+INFO - 2019-03-04 09:04:31 --> Controller Class Initialized
+INFO - 2019-03-04 09:04:31 --> Model "Listadoproductos_model" initialized
+INFO - 2019-03-04 09:04:32 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-03-04 09:04:32 --> Pagination Class Initialized
+INFO - 2019-03-04 09:04:32 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/header.php
+INFO - 2019-03-04 09:04:32 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/aside.php
+INFO - 2019-03-04 09:04:32 --> File loaded: C:\xampp\htdocs\tienda\application\views\listadoproductos.php
+INFO - 2019-03-04 09:04:32 --> File loaded: C:\xampp\htdocs\tienda\application\views\layouts/footer.php
+INFO - 2019-03-04 09:04:32 --> Final output sent to browser
+DEBUG - 2019-03-04 09:04:32 --> Total execution time: 2.6500
+INFO - 2019-03-04 09:39:42 --> Config Class Initialized
+INFO - 2019-03-04 09:39:42 --> Hooks Class Initialized
+DEBUG - 2019-03-04 09:39:42 --> UTF-8 Support Enabled
+INFO - 2019-03-04 09:39:42 --> Utf8 Class Initialized
+INFO - 2019-03-04 09:39:42 --> URI Class Initialized
+DEBUG - 2019-03-04 09:39:42 --> No URI present. Default controller set.
+INFO - 2019-03-04 09:39:42 --> Router Class Initialized
+INFO - 2019-03-04 09:39:42 --> Output Class Initialized
+INFO - 2019-03-04 09:39:42 --> Security Class Initialized
+DEBUG - 2019-03-04 09:39:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-04 09:39:42 --> Input Class Initialized
+INFO - 2019-03-04 09:39:42 --> Language Class Initialized
+INFO - 2019-03-04 09:39:43 --> Loader Class Initialized
+INFO - 2019-03-04 09:39:43 --> Helper loaded: url_helper
+INFO - 2019-03-04 09:39:43 --> Helper loaded: form_helper
+INFO - 2019-03-04 09:39:43 --> Database Driver Class Initialized
+ERROR - 2019-03-04 09:39:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'isaacogazon'@'localhost' (using password: YES) C:\xampp\htdocs\tienda\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2019-03-04 09:39:43 --> Unable to connect to the database
+INFO - 2019-03-04 09:39:43 --> Language file loaded: language/english/db_lang.php
+
