@@ -37,7 +37,6 @@ class Auth extends CI_Controller {
 
         if (!$res) {
             $this->session->set_flashdata("error", "El usuario y/o contraseña son incorrectos");
-            echo $contraseña;
             $this->load->model("provincias_model");
 
 
@@ -286,7 +285,7 @@ class Auth extends CI_Controller {
             'required' => '<p class="text-danger">Es obligatorio el campo %s.',
             'valid_email' => '<p class="text-danger">El formato del %s no es correcto.'
         ));
-         if ($this->session->userdata('login')) {
+        if ($this->session->userdata('login')) {
         $ponercorreo = $this->usuario_model->dameCorreo();
         }
 

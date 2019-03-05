@@ -1,7 +1,7 @@
 <div class="content-wrapper">
     <section class="content-header">
         <h1>
-            Carrito
+            Compra
             <small>Listado</small>
         </h1>
     </section>
@@ -26,14 +26,7 @@
                                 <td><?php
                                     echo form_hidden($i . '[rowid]', $items['rowid']);
                                     echo '<p class=""cantidad>'.$items['qty'].'</p>';
-                                    /*echo form_input(array(
-                                        //'type' => 'text',
-                                        'class' => 'cantidad',
-                                        'name' => $i . '[qty]',
-                                        'value' => $items['qty'],
-                                        'maxlength' => '3',
-                                        'size' => '5'));
-                                    */?>
+                                    ?>
                                 </td>
                                 <td id="nombre">
                                     <?php echo $items['name']; ?>

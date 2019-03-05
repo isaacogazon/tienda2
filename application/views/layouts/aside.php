@@ -35,21 +35,17 @@
                         </a>
                         <ul class="treeview-menu">
                             <li><a href="<?php echo site_url();?>/carrito"><i class="fa fa-circle-o"></i>Carro de la compra</a></li>
-                            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Generar Factura</a></li>
                         </ul>
                     </li>
                     <li class="treeview">
                         <a href="#">
-                            <i class="fa fa-print"></i> <span>Reportes</span>
+                            <i class="fa fa-print"></i> <span>Pedidos</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Categorias</a></li>
-                            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Clientes</a></li>
-                            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Productos</a></li>
-                            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Ventas</a></li>
+                            <li><a href="<?php echo site_url();?>/carrito/pedidos"><i class="fa fa-circle-o"></i> Mis pedidos</a></li>
                         </ul>
                     </li>
                     <li class="treeview">

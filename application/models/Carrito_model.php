@@ -28,22 +28,22 @@ class Carrito_model extends CI_Model {
             'telefono' => $res['telefono'],
             'direccion' => $res['direccion'],
             'correo' => $res['correo'],
-            'estado' => 'P'
+            'estado' => 'PR'
         );
-        $this->db->insert('venta', $datos);
 
-        /*$idventa = $this->db->query("SELECT id FROM venta WHERE id = (SELECT MAX(id) from venta)");
-
-        $idpedido = $idventa->row();*/
-
-        $this->crearlineaspedido();
+        if (!$this->session->userdata('login')) {
+            redirect('auth');
+        } else {
+            $this->db->insert('venta', $datos);
+            $this->crearlineaspedido();
+        }
     }
 
     public function crearlineaspedido() {
-        
+
         $idventa = $this->db->query("SELECT id FROM venta WHERE id = (SELECT MAX(id) from venta)");
         $idpedido = $idventa->row();
-        
+
         foreach ($this->cart->contents() as $items):
 
             $datos = array(
@@ -54,8 +54,53 @@ class Carrito_model extends CI_Model {
             );
             $this->db->insert('detalle_venta', $datos);
 
+            $this->restarstock($items['id'], $items['qty']);
 
         endforeach;
+
+
+        //redirect('principal');
+    }
+
+    public function restarstock($idproducto, $restar) {
+
+        $productos = $this->db->query("SELECT stock FROM productos WHERE id = " . $idproducto);
+        $cant = $productos->row();
+        $resto = $cant->stock - $restar;
+
+        $data = array(
+            'stock' => $resto
+        );
+        $this->db->where('id', $idproducto);
+        $this->db->update('productos', $data);
+    }
+
+    public function getpedidos() {
+        $this->db->where('cliente_id =' . $this->session->userdata('id'));
+        $resultados = $this->db->get("venta");
+        return $resultados->result();
+    }
+
+    public function getpedido($id) {
+
+        $this->db->where("id", $id);
+        $detalles = $this->db->get('venta');
+        return $detalles->row();
+    }
+
+    public function getdetallepedido($id) {
+
+        $this->db->where("venta_id", $id);
+        $detalles = $this->db->get('detalle_venta');
+        return $detalles->result();
+    }
+
+    public function anularpedido($id) {
+        $this->db->where('venta_id', $id);
+        $this->db->delete('detalle_venta');
+
+        $this->db->where('id=' . $id . ' AND estado = "PR"');
+        $this->db->delete('venta');
     }
 
 }
