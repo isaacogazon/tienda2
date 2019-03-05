@@ -7,9 +7,7 @@ class Carrito_model extends CI_Model {
     public function crearventa() {
         $this->db->where("id", $this->session->userdata('id'));
         $usuario = $this->db->get('clientes');
-
         $usuario->row();
-
         $res = [];
 
         foreach ($usuario->result() as $row) {
@@ -53,13 +51,8 @@ class Carrito_model extends CI_Model {
                 'cantidad' => $items['qty']
             );
             $this->db->insert('detalle_venta', $datos);
-
             $this->restarstock($items['id'], $items['qty']);
-
         endforeach;
-
-
-        //redirect('principal');
     }
 
     public function restarstock($idproducto, $restar) {
