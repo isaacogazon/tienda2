@@ -65,6 +65,19 @@
                         <li><a href="<?php echo site_url(); ?>/examples/muestrapedidos"><i class="fa fa-circle-o"></i> CRUD pedidos</a></li>
                     </ul>
                 </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-user-circle-o"></i> <span>Exportar e importar en XML</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="<?php echo site_url(); ?>/principal/exportar_productos"><i class="fa fa-circle-o"></i> Exportar XML articulos</a></li>
+                        <li><a href="<?php echo site_url(); ?>/principal/exportar_categorias"><i class="fa fa-circle-o"></i> Exportar XML categorias</a></li>
+                        
+                    </ul>
+                </li>
             <?php } ?>
         </ul>
     </section>

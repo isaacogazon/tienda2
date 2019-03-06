@@ -19,7 +19,7 @@ class Principal extends CI_Controller {
         $config['base_url'] = site_url('principal/index');
         $config['total_rows'] = $this->listadoproductos_model->num_productos();
         $config['per_page'] = 6;
-        //$config['uri_segment'] = 3;
+//$config['uri_segment'] = 3;
         $config['num_links'] = 5;
         $config['full_tag_open'] = '<ul class="pagination">';
         $config['full_tag_close'] = '</ul>';
@@ -42,7 +42,7 @@ class Principal extends CI_Controller {
 
         $this->pagination->initialize($config);
 
-        //Cargo todos los productos y se los paso a la vista mediante $data
+//Cargo todos los productos y se los paso a la vista mediante $data
         $data = array(
             'productos' => $this->listadoproductos_model->getPaginacion($config['per_page'])
         );
@@ -62,7 +62,7 @@ class Principal extends CI_Controller {
         $this->load->view('layouts/footer');
     }
 
-    public function categoria($id_cat, $pos=0) {
+    public function categoria($id_cat, $pos = 0) {
 
         /**
          * Paginacion
@@ -72,7 +72,7 @@ class Principal extends CI_Controller {
         $config['base_url'] = site_url('principal/categoria/' . $id_cat);
         $config['total_rows'] = $this->listadoproductos_model->num_productosCat($id_cat);
         $config['per_page'] = 6;
-        //$config['uri_segment'] = 3;
+//$config['uri_segment'] = 3;
         $config['num_links'] = 5;
         $config['full_tag_open'] = '<ul class="pagination">';
         $config['full_tag_close'] = '</ul>';
@@ -96,7 +96,7 @@ class Principal extends CI_Controller {
         $this->pagination->initialize($config);
 
 
-        //Cargo todos los productos y se los paso a la vista mediante $data 
+//Cargo todos los productos y se los paso a la vista mediante $data 
         $data = array(
             'productos' => $this->listadoproductos_model->categoria($id_cat, $config['per_page'], $pos)
         );
@@ -156,6 +156,56 @@ class Principal extends CI_Controller {
         $this->load->view('layouts/aside', $categorias);
         $this->load->view('producto', $data);
         $this->load->view('layouts/footer');
+    }
+
+    public function exportar_productos() {
+        header("Content-type: text/xml");
+        header('Content-Disposition: attachment; filename="productos.xml"');
+        $productosdb = $this->listadoproductos_model->getProductos();
+
+        $xmlstr = <<<XML
+<?xml version='1.0' encoding="iso-8859-1"?>
+<productos></productos>
+XML;
+
+        $productos = new SimpleXMLElement($xmlstr);
+        foreach ($productosdb->result() as $row) {
+            $producto = $productos->addChild('producto');
+            $producto->addChild('nombre', $row->nombre);
+            $producto->addChild('descripcion', $row->descripcion);
+            $producto->addChild('precio', $row->precio);
+            $producto->addChild('stock', $row->stock);
+            $producto->addChild('categoria_id', $row->categoria_id);
+            $producto->addChild('estado', $row->estado);
+            $producto->addChild('descuento', $row->descuento);
+            $producto->addChild('imagen', $row->imagen);
+            $producto->addChild('iva', $row->iva);
+            $producto->addChild('fecha_inicio', $row->fecha_inicio);
+            $producto->addChild('fecha_fin', $row->fecha_fin);
+            $producto->addChild('destacado', $row->destacado);
+        }
+
+
+        echo $productos->asXML();
+    }
+    
+    public function exportar_categorias() {
+        header("Content-type: text/xml");
+        header('Content-Disposition: attachment; filename="categorias.xml"');
+        $productosdb = $this->listadoproductos_model->getCategoria();
+
+        $xmlstr = <<<XML
+<?xml version='1.0' encoding="iso-8859-1"?>
+<categorias></categorias>
+XML;
+
+        $categorias = new SimpleXMLElement($xmlstr);
+        foreach ($productosdb->result() as $row) {
+            $producto = $categorias->addChild('categoria');
+            $producto->addChild('nombre', $row->nombre);
+            $producto->addChild('descripcion', $row->descripcion);
+        }
+        echo $categorias->asXML();
     }
 
 }

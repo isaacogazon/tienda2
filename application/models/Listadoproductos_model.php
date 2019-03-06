@@ -59,8 +59,26 @@ class Listadoproductos_model extends CI_Model {
          */
         public function getPaginacion($num_por_pag){
             $this->db->where('estado = 1 and stock > 0');
+            $this->db->order_by('fecha_inicio', 'desc');
             $resultados = $this->db->get("productos", $num_por_pag, $this->uri->segment(3));
             return $resultados->result();
         }
         
+        /**
+         * Devuelve todos los productos para mandarlos a XML
+         * @return type array
+         */
+        public function getProductos(){
+            $resultado = $this->db->get('productos');
+            return $resultado;
+        }
+        
+        /**
+         * Devuelve todos las categorias para mandarlos a XML
+         * @return type array
+         */
+        public function getCategoria(){
+            $resultado = $this->db->get('categorias');
+            return $resultado;
+        }
 }

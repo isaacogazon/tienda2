@@ -351,7 +351,7 @@ class Auth extends CI_Controller {
         $pdf->ImprovedTable($header, $data);
         
         //$pdf->Output();
-        $pdf->Output("I");
+        $pdf->Output("D");
     }
 
 }
