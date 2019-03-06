@@ -49,5 +49,16 @@ class Examples extends CI_Controller {
 
         $this->_example_output($output);
     }
+    
+    public function muestrapedidos() {
+
+        $crud = new grocery_CRUD();
+        $crud->set_table('venta');
+        //$crud->columns('nombre', 'codigo', 'descripcion', 'precio', 'cantidad_dispo');
+
+        $output = $crud->render();
+
+        $this->_example_output($output);
+    }
 
 }

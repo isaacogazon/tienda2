@@ -67,6 +67,12 @@ class Carrito_model extends CI_Model {
         $this->db->where('id', $idproducto);
         $this->db->update('productos', $data);
     }
+    
+    public function getdetallepedidoultimo(){
+        $idventa = $this->db->query("SELECT id FROM venta WHERE id = (SELECT MAX(id) from venta)");
+        $idpedido = $idventa->row();
+        return $idpedido;
+    }
 
     public function getpedidos() {
         $this->db->where('cliente_id =' . $this->session->userdata('id'));

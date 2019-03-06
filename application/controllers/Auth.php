@@ -9,6 +9,7 @@ class Auth extends CI_Controller {
         $this->load->model("usuario_model");
         $this->load->model("provincias_model");
         $this->load->model("listadoproductos_model");
+        $this->load->model("carrito_model");
         $this->load->library('form_validation');
     }
 
@@ -290,7 +291,7 @@ class Auth extends CI_Controller {
 
         $correo = $this->input->post("correo");
 
-        if ($this->form_validation->run() == FALSE) {
+        if ($this->form_validation->run() == FALSE || !$this->usuario_model->existeemail($correo)) {
 
             $categorias = array(
                 'categorias' => $this->listadoproductos_model->getCategorias()
@@ -331,6 +332,26 @@ class Auth extends CI_Controller {
 
             $this->load->view('layouts/footer');
         }
+    }
+    
+    public function pdfcompra($id){
+        $this->load->model('Pdf_model');
+        
+        $pdf = new Pagina_PDF();
+        $pdf ->AddPage();
+        
+        $header = array('Producto ID', 'Precio', 'Cantidad');
+        
+        $data = $this->carrito_model->getdetallepedido($id);
+        
+        $datosusuario = $this->usuario_model->datos();
+        
+        $pdf->encabezado($datosusuario);
+        
+        $pdf->ImprovedTable($header, $data);
+        
+        //$pdf->Output();
+        $pdf->Output("I");
     }
 
 }

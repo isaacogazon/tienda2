@@ -31,7 +31,7 @@
                             </td>
                             <td style="text-align:right">
                                 <a href="<?php echo site_url(); ?>/carrito/anular/<?= $items->id; ?>"><span class="label label-danger">Anular</span></a>
-                                <a href="<?php echo site_url(); ?>/carrito/generarpdf/<?= $items->id; ?>"><span class="label label-success">PDF</span></a>
+                                <a href="<?php echo site_url(); ?>/auth/pdfcompra/<?= $items->id; ?>"><span class="label label-success">PDF</span></a>
                                 <a href="<?php echo site_url(); ?>/carrito/detallepedido/<?= $items->id; ?>"><span class="label label-primary">Ver</span></a>
                             </td>
                         </tr>

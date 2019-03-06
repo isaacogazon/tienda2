@@ -8,6 +8,7 @@ class Carrito extends CI_Controller {
         parent::__construct();
         $this->load->library('cart');
         $this->load->model('carrito_model');
+        $this->load->model('usuario_model');
         $this->load->model("listadoproductos_model");
     }
 
@@ -110,21 +111,45 @@ class Carrito extends CI_Controller {
     }
 
     public function enviarcorreodetalle() {
-
+        
+        $this->load->model('Pdf_model');
+        
+        $pdf = new Pagina_PDF();
+        $pdf ->AddPage('L');
+        
+        $header = array('Producto ID', 'Precio', 'Cantidad');
+        
+        $ultimoid = $this->carrito_model->getdetallepedidoultimo()->id;
+      
+        
+        $data = $this->carrito_model->getdetallepedido($ultimoid);
+        
+        $datosusuario = $this->usuario_model->datos();
+        
+        $pdf->encabezado($datosusuario);
+        
+        $pdf->ImprovedTable($header, $data);
+        
+        //$pdf->Output();
+        $pdf->Output("F");
+        
         $rs = $this->db->query("select correo from clientes where id=" . $this->session->userdata('id'));
         $reg = $rs->row();
         $correo = $reg->correo;
 
         $correohtml = $this->load->view('tablacorreo', '', TRUE);
-
+        
         $this->email->from('segundodaw2019@gmail.com', 'Isaac');
         $this->email->to($correo);
         //$this->email->cc('otro@otro-ejemplo.com');
         //$this->email->bcc('ellos@su-ejemplo.com');
         $this->email->subject('Detalle de pedido');
+        
+        //Con esto envio el PDF en el correo
+        $this->email->attach('doc.pdf', 'inline');
+        
         $this->email->message($correohtml);
         $this->email->send();
-        //echo $this->email->print_debugger();
         $this->cart->destroy();
         redirect('principal');
     }
