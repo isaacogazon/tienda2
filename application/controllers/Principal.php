@@ -188,7 +188,7 @@ XML;
 
         echo $productos->asXML();
     }
-    
+
     public function exportar_categorias() {
         header("Content-type: text/xml");
         header('Content-Disposition: attachment; filename="categorias.xml"');
@@ -206,6 +206,57 @@ XML;
             $producto->addChild('descripcion', $row->descripcion);
         }
         echo $categorias->asXML();
+    }
+
+    public function inportar_productos() {
+        $config['upload_path'] = __DIR__ . "/../../assets/xml/";
+        $config['allowed_types'] = 'xml';
+        $config['file_name'] = 'productos.xml';
+
+        $this->load->library('upload', $config);
+
+        if (!$this->upload->do_upload('file')) {
+            $error = array('error' => $this->upload->display_errors());
+
+            // $this->load->view('upload_form', $error);
+        } else {
+            $data = array('upload_data' => $this->upload->data());
+        }
+        
+        $xml = simplexml_load_file(__DIR__ . "/../../assets/xml/" . $data["upload_data"]["file_name"]);
+        $truedata = [];
+
+        foreach ($xml as $categoria) {
+            $data = array(
+                'nombre' => $categoria->nombre,
+                "descripcion" => $categoria->descripcion,
+                'precio' => $categoria->descripcion,
+                "stock" => $categoria->stock,
+                "categoria_id" => $categoria->categoria_id,
+                "estado" => $categoria->estado,
+                "descuento" => $categoria->descuento,
+                "imagen" => $categoria->imagen,
+                "iva" => $categoria->iva,
+                "fecha_inicio" => $categoria->fecha_inicio,
+                "fecha_fin" => $categoria->fecha_fin,
+                "destacado" => $categoria->detacado,
+            );
+
+            array_push($truedata, $data);
+        }
+        $this->listadoproductos_model->insert_productos($truedata);
+        redirect('principal');
+    }
+    
+    public function importar_producto() {
+        $categorias = array(
+            'categorias' => $this->listadoproductos_model->getCategorias()
+        );
+
+        $this->load->view('layouts/header');
+        $this->load->view('layouts/aside', $categorias);
+        $this->load->view('subirxml');
+        $this->load->view('layouts/footer');
     }
 
 }

@@ -81,4 +81,10 @@ class Listadoproductos_model extends CI_Model {
             $resultado = $this->db->get('categorias');
             return $resultado;
         }
+        
+        function insert_productos($array){
+        foreach ($array as $row) {
+             $this->db->insert('productos', $row);
+        }
+    }
 }

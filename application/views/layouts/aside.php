@@ -75,6 +75,7 @@
                     <ul class="treeview-menu">
                         <li><a href="<?php echo site_url(); ?>/principal/exportar_productos"><i class="fa fa-circle-o"></i> Exportar XML articulos</a></li>
                         <li><a href="<?php echo site_url(); ?>/principal/exportar_categorias"><i class="fa fa-circle-o"></i> Exportar XML categorias</a></li>
+                        <li><a href="<?php echo site_url(); ?>/principal/importar_producto"><i class="fa fa-circle-o"></i> Importar XML productos</a></li>
                         
                     </ul>
                 </li>

@@ -71,10 +71,10 @@ class Auth extends CI_Controller {
         $this->form_validation->set_rules('contraseña', 'Contraseña', 'required', array(
             'required' => '<p class="text-danger">Es obligatorio el campo %s.'
         ));
-        $this->form_validation->set_rules('dni', 'DNI', 'required|max_length[9]|alpha_numeric', array(
+        $this->form_validation->set_rules('dni', 'DNI', 'required|alpha_numeric|callback_valid_dni', array(
             'required' => '<p class="text-danger">Es obligatorio el campo %s.',
-            'max_length' => '<p class="text-danger">El campo %s no tiene formato correcto.',
-            'alpha_numeric' => '<p class="text-danger">El campo %s no tiene formato correcto, solo numeros y una letra.'
+            'alpha_numeric' => '<p class="text-danger">El campo %s no tiene formato correcto, solo numeros y una letra.',
+            'valid_dni' => '<p class="text-danger">El campo %s no tiene formato correcto.'
         ));
         $this->form_validation->set_rules('telefono', 'Telefono', 'required|max_length[9]', array(
             'required' => '<p class="text-danger">Es obligatorio el campo %s.',
@@ -122,6 +122,30 @@ class Auth extends CI_Controller {
             $this->usuario_model->registrar($nombre, $apellidos, $contraseña, $dni, $telefono, $direccion, $cp, $provincia, $correo);
             redirect(site_url() . '/principal');
         }
+    }
+    
+    /**
+     * Valid DNI
+     *
+     * @access	public
+     * @param	string
+     * @return	bool
+     */
+    public function valid_dni($str) {
+        $str = trim($str);
+        $str = str_replace("-", "", $str);
+        $str = str_ireplace(" ", "", $str);
+
+        if (!preg_match("/^[0-9]{7,8}[a-zA-Z]{1}$/", $str)) {
+            return FALSE;
+        } else {
+            $n = substr($str, 0, -1);
+            $letter = substr($str, -1);
+            $letter2 = substr("TRWAGMYFPDXBNJZSQVHLCKE", $n % 23, 1);
+            if (strtolower($letter) != strtolower($letter2))
+                return FALSE;
+        }
+        return TRUE;
     }
 
     public function logout() {
@@ -201,10 +225,10 @@ class Auth extends CI_Controller {
         /* $this->form_validation->set_rules('contraseña', 'Contraseña', 'required', array(
           'required' => '<p class="text-danger">Es obligatorio el campo %s.'
           )); */
-        $this->form_validation->set_rules('dni', 'DNI', 'required|max_length[9]|alpha_numeric', array(
+        $this->form_validation->set_rules('dni', 'DNI', 'required|alpha_numeric|callback_valid_dni', array(
             'required' => '<p class="text-danger">Es obligatorio el campo %s.',
-            'max_length' => '<p class="text-danger">El campo %s no tiene formato correcto.',
-            'alpha_numeric' => '<p class="text-danger">El campo %s no tiene formato correcto, solo numeros y una letra.'
+            'alpha_numeric' => '<p class="text-danger">El campo %s no tiene formato correcto, solo numeros y una letra.',
+            'valid_dni' => '<p class="text-danger">El campo %s no tiene formato correcto.'
         ));
         $this->form_validation->set_rules('telefono', 'Telefono', 'required|max_length[9]', array(
             'required' => '<p class="text-danger">Es obligatorio el campo %s.',

@@ -12,7 +12,6 @@
 <script src="<?php echo base_url();?>assets/template/bootstrap/js/bootstrap.min.js"></script>
 <!-- SlimScroll -->
 <script src="<?php echo base_url();?>assets/template/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-
 <!-- FastClick -->
 <script src="<?php echo base_url();?>assets/template/fastclick/lib/fastclick.js"></script>
 <!-- AdminLTE App -->

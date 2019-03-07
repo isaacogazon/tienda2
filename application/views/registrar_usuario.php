@@ -53,7 +53,7 @@
                                 <?= form_error('telefono'); ?>
                             </div>
                             <div class="form-group has-feedback">
-                                <input type="text" class="form-control" placeholder="Direccion" name="direccion">
+                                <input type="text" class="form-control" placeholder="Direccion" value="<?php echo!empty($_POST['direccion']) ? $_POST['direccion'] : "" ?>" name="direccion">
                                 <span class="glyphicon glyphicon-home form-control-feedback"></span>
                                 <?= form_error('direccion'); ?>
                             </div>
